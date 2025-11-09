@@ -425,6 +425,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
           "name": "Flat Bar White Border.png"
         }
+      },
+      {
+        "file": "assets/Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Food/73604edb648bb0e66b31435c5ae9c66aafe60bc23324a76f00c24b9adc13326b_Apple.png",
+          "name": "Apple.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -497,7 +509,8 @@
         "gridAlpha": 0.2,
         "snap": true,
         "zoomFactor": 0.6285751298948268,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -3070,6 +3083,66 @@
             "tileSize": 16,
             "tilesWithHitBox": "168,196,224,252,169,197,225,253,170,198,226,254,171,199,227,255,172,200,228,256,173,201,229,257,174,202,230,258,175,203,231,259,176,204,232,260,177,205,233,261,234,262,284,285,286,287,288"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "4e2421c7fbcc2b0a4e0abe7c562504cfa4913eb94d22533d878ed342c0e65e29",
+          "name": "Apple",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 3,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3131,6 +3204,9 @@
           },
           {
             "objectName": "DialogBox"
+          },
+          {
+            "objectName": "Apple"
           }
         ]
       },
