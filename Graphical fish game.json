@@ -381,6 +381,22 @@
         "name": "assets\\StartingPlayer",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "CMPM 80K - Goldfish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CMPM 80K - Goldfish.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CMPM 80K - Goldfish2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"CMPM 80K - Goldfish2.png\",\"extension\":\".png\"}",
+        "name": "CMPM 80K - Goldfish2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -673,6 +689,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 3,
@@ -701,6 +718,7 @@
               "PercentDamageReduction": 0
             },
             {
+              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 0.9,
@@ -754,6 +772,7 @@
             },
             {
               "name": "TopDownMovement",
+              "rotateObject": false,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "angularMaxSpeed": 100,
               "maxSpeed": 100,
@@ -764,10 +783,10 @@
               "customIsometryAngle": 30,
               "ignoreDefaultControls": false,
               "movementAngleOffset": 0,
-              "rotateObject": true,
               "viewpoint": "TopDown"
             },
             {
+              "isFolded": true,
               "name": "TopDownMultitouchMapper",
               "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
               "TopDownMovement": "TopDownMovement",
@@ -782,7 +801,7 @@
           ],
           "animations": [
             {
-              "name": "assets\\StartingPlayer",
+              "name": "right",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -792,7 +811,56 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer",
+                      "image": "CMPM 80K - Goldfish.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 62,
+                            "y": 2
+                          },
+                          {
+                            "x": 62,
+                            "y": 62
+                          },
+                          {
+                            "x": 2,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "CMPM 80K - Goldfish2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1672,6 +1740,72 @@
                 "",
                 "\"Sewers\"",
                 "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Fish movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"left\""
               ]
             }
           ]
