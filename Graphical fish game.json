@@ -397,6 +397,18 @@
         "name": "CMPM 80K - Goldfish2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Tiled Flooring.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Flooring.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_tiled_Tiled Flooring.png",
+          "name": "tiled_Tiled Flooring.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -428,9 +440,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156864,
+        "zoomFactor": 0.5468750000000029,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "Layer"
       },
       "objectsGroups": [],
       "variables": [],
@@ -985,17 +997,6 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
           "name": "barrier",
           "texture": "",
           "type": "TiledSpriteObject::TiledSprite",
@@ -1455,6 +1456,17 @@
             "HoveredFadeOutDuration": 0.25,
             "LabelText": "Next scene"
           }
+        },
+        {
+          "assetStoreId": "36e485ce0d82bf08fb95416be533234ab70fcd431287029741ddebc4e81a70d1",
+          "height": 16,
+          "name": "Tiled_Flooring",
+          "texture": "tiled_Tiled Flooring.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -1470,9 +1482,6 @@
                 "objectName": "Joystick"
               }
             ]
-          },
-          {
-            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "barrier"
@@ -1491,6 +1500,9 @@
           },
           {
             "objectName": "Leaf"
+          },
+          {
+            "objectName": "Tiled_Flooring"
           },
           {
             "objectName": "BlackDecoratedButton"
@@ -1982,7 +1994,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748966,
+        "zoomFactor": 0.4481978045410429,
         "windowMask": false,
         "selectedLayer": ""
       },
