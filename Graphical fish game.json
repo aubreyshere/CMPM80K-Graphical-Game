@@ -280,54 +280,6 @@
         }
       },
       {
-        "file": "assets/Swimming enemy_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Swimming enemy_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/39576d04c3387b5aaf71be3f2dd4bff0a76670d2d11e7e9cc027e4405f6a2e96_Swimming enemy_1.png",
-          "name": "Swimming enemy_1.png"
-        }
-      },
-      {
-        "file": "assets/Swimming enemy_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Swimming enemy_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/630d51775cce08566cfa4ca773f494b8f30dc8bad43be1e47029e54eb8122a94_Swimming enemy_2.png",
-          "name": "Swimming enemy_2.png"
-        }
-      },
-      {
-        "file": "assets/Swimming enemy_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Swimming enemy_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/ab53f3e5d0ac4b13be3963c540854e7511ab4ad20a19bac819833684f620aa83_Swimming enemy_3.png",
-          "name": "Swimming enemy_3.png"
-        }
-      },
-      {
-        "file": "assets/Swimming enemy_dead_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Swimming enemy_dead_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/31532024898e9a92a1226f822ff0de02afd17f5958c070b052be80c69340bac3_Swimming enemy_dead_1.png",
-          "name": "Swimming enemy_dead_1.png"
-        }
-      },
-      {
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -496,6 +448,36 @@
         "metadata": "{\"localFilePath\":\"gator5.png\",\"extension\":\".png\"}",
         "name": "gator5.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/creature-in-the-sewer-17657.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\creature-in-the-sewer-17657.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/chase-8-bit-73312.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\chase-8-bit-73312.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/retro-hurt-2-236675.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\retro-hurt-2-236675.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -2322,12 +2304,23 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024616,
+        "zoomFactor": 0.5653158055126446,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Enemy_distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Damage_sounds",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2774,9 +2767,41 @@
           "name": "Gator",
           "persistentUuid": "c22496fa-667e-4135-9b8e-c78abf90ed02",
           "width": 0,
-          "x": 345,
-          "y": 117,
+          "x": 418,
+          "y": 481,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Player_light",
+          "persistentUuid": "57b0d7e7-b1b4-4214-bc1c-838eca4109a5",
+          "width": 0,
+          "x": 674,
+          "y": 362,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Enemy_light",
+          "persistentUuid": "fea3fa72-105e-430e-8874-bf908b0114b0",
+          "width": 0,
+          "x": 675,
+          "y": 363,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3754,6 +3779,34 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Player_light",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 350,
+            "color": "255;251;232",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Enemy_light",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 300,
+            "color": "255;207;207",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3793,6 +3846,12 @@
           },
           {
             "objectName": "Gator"
+          },
+          {
+            "objectName": "Enemy_light"
+          },
+          {
+            "objectName": "Player_light"
           }
         ]
       },
@@ -3875,6 +3934,41 @@
                 "=",
                 "TopDown_Character.Variable(Speed)"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player_light",
+                "=",
+                "TopDown_Character.X() + 20",
+                "=",
+                "TopDown_Character.Y() + 20"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Enemy_light",
+                "=",
+                "Gator.X() + 150",
+                "=",
+                "Gator.Y() + 100"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Gator",
+                "TopDown_Character",
+                "50",
+                "0"
+              ]
             }
           ]
         },
@@ -3888,20 +3982,18 @@
               "parameters": [
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Gator",
-                "1000",
-                ""
-              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "\"collisionTimer\"",
+                "\"damage sound\""
+              ]
+            },
             {
               "type": {
                 "value": "ResetObjectTimer"
@@ -3909,17 +4001,6 @@
               "parameters": [
                 "TopDown_Character",
                 "\"sprintCounter\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "Gator",
-                "TopDown_Character",
-                "50",
-                "0"
               ]
             }
           ]
@@ -4091,6 +4172,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"damage sound\"",
+                ">=",
+                "4"
+              ]
             }
           ],
           "actions": [
@@ -4109,14 +4201,23 @@
             },
             {
               "type": {
-                "value": "Health::Health::SetCooldownDurationOp"
+                "value": "PlaySound"
               },
               "parameters": [
-                "TopDown_Character",
-                "Health",
-                "=",
-                "4",
+                "",
+                "assets\\retro-hurt-2-236675.mp3",
+                "",
+                "100",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "\"collisionTimer\"",
+                "\"damage sound\""
               ]
             }
           ]
@@ -4271,6 +4372,107 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Audio"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\chase-8-bit-73312.mp3",
+                "1",
+                "yes",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\creature-in-the-sewer-17657.mp3",
+                "0",
+                "yes",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Enemy_distance",
+                "=",
+                "TopDown_Character.Distance(Gator)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SpatialSound::SetListenerPosition"
+              },
+              "parameters": [
+                "TopDown_Character.X()",
+                "TopDown_Character.Y()",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0",
+                "=",
+                "max(0, 100 * (Variable(Enemy_distance)/500))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                " max(0, 100 * (1 - Variable(Enemy_distance)/500))"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -4316,6 +4518,23 @@
           "name": "MobileControls",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": true,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
