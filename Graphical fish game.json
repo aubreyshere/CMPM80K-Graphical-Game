@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -601,6 +601,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Food/2362380e4c35ca6523aa496c9594a701ff19d4520030b79952b5535b825b0a6d_Cookie.png",
           "name": "Cookie.png"
         }
+      },
+      {
+        "file": "assets/Clownfish_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clownfish_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/0ec41d39fa4cb40a0174b1c396da63a6d59d08c16ff22b803430b88abc9ef13f_Clownfish_No Shadow.png",
+          "name": "Clownfish_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Clownfish_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clownfish_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/a7b22e2b822172e0535fd8db84bd25157d4679d98130347347ece30137404ea2_Clownfish_Shadow.png",
+          "name": "Clownfish_Shadow.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -632,7 +656,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740962,
+        "zoomFactor": 0.46331118245140035,
         "windowMask": false,
         "selectedLayer": "Layer"
       },
@@ -698,32 +722,32 @@
           "name": "barrier",
           "persistentUuid": "43392c68-f2d9-41be-8eee-dbe2d393d7bb",
           "width": 669,
-          "x": 339,
-          "y": 0,
+          "x": 336,
+          "y": 114,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 100,
+          "angle": 107,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 19,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
           "persistentUuid": "4d7c1eb6-bf1b-4983-833f-ffca68dd7c2a",
-          "width": 344,
-          "x": 858,
-          "y": 537,
+          "width": 418,
+          "x": 835,
+          "y": 495,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 260,
+          "angle": 247,
           "customSize": true,
           "depth": 1,
           "height": 17,
@@ -732,15 +756,15 @@
           "name": "barrier",
           "persistentUuid": "8d4d8ebe-2445-4132-a008-1d2c28465799",
           "width": 373,
-          "x": 842,
-          "y": 187,
+          "x": 845,
+          "y": 175,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 282,
+          "angle": 294,
           "customSize": true,
           "depth": 1,
           "height": 17,
@@ -749,15 +773,15 @@
           "name": "barrier",
           "persistentUuid": "bb3e31b2-1b90-4675-878d-ffabf7d08ed2",
           "width": 373,
-          "x": 122,
-          "y": 175,
+          "x": 129,
+          "y": 167,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 258,
+          "angle": 254,
           "customSize": true,
           "depth": 1,
           "height": 17,
@@ -766,8 +790,8 @@
           "name": "barrier",
           "persistentUuid": "1bec4420-07fa-4870-97a8-7e5400289f90",
           "width": 373,
-          "x": 120,
-          "y": 526,
+          "x": 113,
+          "y": 509,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1919,6 +1943,22 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "barrier"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Leaf_Spawner"
+              ]
             }
           ]
         },
@@ -2506,9 +2546,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416124045,
+        "zoomFactor": 0.2467258695740703,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "Lighting"
       },
       "objectsGroups": [],
       "variables": [
@@ -3177,6 +3217,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Clownfish",
+          "persistentUuid": "8e740bc2-5bb8-4fea-ba32-127fd2055ca5",
+          "width": 0,
+          "x": 131,
+          "y": 556,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3512,7 +3568,14 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ]
         },
         {
           "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
@@ -3958,6 +4021,8 @@
           "effects": [],
           "behaviors": [
             {
+              "cellHeight": 100,
+              "cellWidth": 100,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "rotateObject": false,
@@ -3965,19 +4030,11 @@
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
               "smoothingMaxCellGap": 1
-            },
-            {
-              "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-              "cost": 2,
-              "impassable": true
             }
           ],
           "animations": [
@@ -4321,6 +4378,114 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "e3ce68e817dd4e686457c6977f29af3d5b8d75facd39e07ad13f11a375d66bd5",
+          "name": "Clownfish",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Clownfish_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 28
+                          },
+                          {
+                            "x": 3,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Clownfish_Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 28
+                          },
+                          {
+                            "x": 3,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4378,6 +4543,9 @@
           },
           {
             "objectName": "food"
+          },
+          {
+            "objectName": "Clownfish"
           }
         ]
       },
@@ -4484,17 +4652,6 @@
                 "=",
                 "Gator.Y() + 100"
               ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "Gator",
-                "TopDown_Character",
-                "50",
-                "0"
-              ]
             }
           ]
         },
@@ -4538,6 +4695,15 @@
                 "Energy",
                 "-",
                 "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Gator",
+                "\"calculatePath\""
               ]
             }
           ]
@@ -4813,7 +4979,18 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game over\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -4886,35 +5063,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SeDirige"
-              },
-              "parameters": [
-                "Gator",
-                "TopDown_Character",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Gator",
-                "Animation",
-                "=",
-                "\"left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
               },
               "parameters": [
@@ -4962,6 +5110,137 @@
                 "Animation",
                 "=",
                 "\"left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Gator"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Gator",
+                "\"calculatePath\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Gator",
+                "Pathfinding",
+                "",
+                "Clownfish.X()",
+                "Clownfish.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Gator",
+                "\"calculatePath\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "Gator",
+                "Pathfinding",
+                "0",
+                "90"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Gator",
+                "\"calculatePath\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gator",
+                "Animation",
+                "=",
+                "\"left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Gator",
+                "\"calculatePath\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "Gator",
+                "Pathfinding",
+                "180",
+                "89"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gator",
+                "Animation",
+                "=",
+                "\"right\""
               ]
             }
           ]
@@ -5079,7 +5358,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -5141,7 +5420,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -5194,7 +5473,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Layer",
           "renderingType": "",
           "visibility": true,
