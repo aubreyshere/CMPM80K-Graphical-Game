@@ -641,6 +641,14 @@
         "name": "IMG_6295[1].PNG",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6296[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6296[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -672,7 +680,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000053,
+        "zoomFactor": 0.14039857806034164,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1023,6 +1031,23 @@
           "x": 796,
           "y": 623,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1855,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "169125ea-0ce7-4d47-b118-fe3eeb1b6dc8",
+          "width": 1990,
+          "x": -315,
+          "y": -937,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1966,6 +1991,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6296[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1000,
+                            "y": 0
+                          },
+                          {
+                            "x": 1000,
+                            "y": 1000
+                          },
+                          {
+                            "x": 0,
+                            "y": 1000
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2011,6 +2096,9 @@
           },
           {
             "objectName": "light"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
