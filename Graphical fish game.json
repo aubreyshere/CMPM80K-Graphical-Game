@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -565,6 +565,42 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "sewerbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sewerbg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image Nov 18, 2025, 03_21_21 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image Nov 18, 2025, 03_21_21 PM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cookie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cookie.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Food/2362380e4c35ca6523aa496c9594a701ff19d4520030b79952b5535b825b0a6d_Cookie.png",
+          "name": "Cookie.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -596,7 +632,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210202,
+        "zoomFactor": 0.5843784410740962,
         "windowMask": false,
         "selectedLayer": "Layer"
       },
@@ -612,8 +648,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 479,
-          "y": 428,
+          "x": 591,
+          "y": 388,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -879,6 +915,23 @@
           "x": 847,
           "y": 315,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 952,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b376e386-a7c5-4e46-8264-86e930426f66",
+          "width": 912,
+          "x": 216,
+          "y": -127,
+          "zOrder": -50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1702,6 +1755,66 @@
               "RandomPosition": true
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 34
+                          },
+                          {
+                            "x": 488,
+                            "y": 34
+                          },
+                          {
+                            "x": 488,
+                            "y": 443
+                          },
+                          {
+                            "x": 12,
+                            "y": 443
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1741,6 +1854,9 @@
           },
           {
             "objectName": "BlackDecoratedButton"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -2390,9 +2506,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126446,
+        "zoomFactor": 0.34375202416124045,
         "windowMask": false,
-        "selectedLayer": "UI"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -2888,6 +3004,176 @@
           "x": 675,
           "y": 363,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2952,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "opacity": 179,
+          "persistentUuid": "2aaa1d19-7af8-427e-a742-28a2c2ba2893",
+          "width": 3697,
+          "x": -756,
+          "y": -981,
+          "zOrder": -50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "food",
+          "persistentUuid": "8b5e0995-b73c-41dc-8b0b-9fe67274a0f1",
+          "width": 0,
+          "x": 847,
+          "y": 717,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "food",
+          "persistentUuid": "bc2586fb-7f7f-4df9-a229-e4ba83119f33",
+          "width": 60,
+          "x": 458,
+          "y": 1026,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "food",
+          "persistentUuid": "90313377-743c-4815-a8ff-7947d4dd17e0",
+          "width": 60,
+          "x": 846,
+          "y": -363,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "food",
+          "persistentUuid": "fc8c389a-bdc9-446d-8650-1f3ea81e4707",
+          "width": 60,
+          "x": 1537,
+          "y": -268,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "food",
+          "persistentUuid": "20e2c97a-0bc4-4bce-89ef-be698ad590d4",
+          "width": 60,
+          "x": 1138,
+          "y": 650,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "e58e6a8c-92f2-4406-a01b-87010e1b03c5",
+          "width": 66,
+          "x": 224,
+          "y": 661,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "76c9054d-6dd2-4098-9164-9f527ef5b101",
+          "width": 66,
+          "x": 909,
+          "y": 368,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "cc2988fb-e2ec-4668-ac6a-d84521ebda36",
+          "width": 66,
+          "x": 55,
+          "y": 1271,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "b970604d-facb-4497-a6e9-9e82ff5e1a7e",
+          "width": 66,
+          "x": 1533,
+          "y": 639,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3893,6 +4179,148 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sewerbg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "8ce3b5374109cb46755ba3e96fc0ae33799a98b20d20671f778b2d3d28fd40d4",
+          "name": "food",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Cookie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 2,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3913,7 +4341,13 @@
             "objectName": "Sewer_water"
           },
           {
+            "objectName": "NewSprite"
+          },
+          {
             "objectName": "barrier"
+          },
+          {
+            "objectName": "NewSprite2"
           },
           {
             "objectName": "WoodRedBar"
@@ -3938,6 +4372,12 @@
           },
           {
             "objectName": "Player_light"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "food"
           }
         ]
       },
@@ -4088,6 +4528,17 @@
                 "TopDown_Character",
                 "\"sprintCounter\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "-",
+                "4"
+              ]
             }
           ]
         },
@@ -4207,6 +4658,24 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "food",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4228,6 +4697,26 @@
                 "Energy",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "food",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "+",
+                "2"
               ]
             }
           ]
@@ -4654,6 +5143,59 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
