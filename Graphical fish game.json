@@ -625,6 +625,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/a7b22e2b822172e0535fd8db84bd25157d4679d98130347347ece30137404ea2_Clownfish_Shadow.png",
           "name": "Clownfish_Shadow.png"
         }
+      },
+      {
+        "file": "IMG_6294[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6294[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6295[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6295[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -656,9 +672,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245140035,
+        "zoomFactor": 0.5468750000000053,
         "windowMask": false,
-        "selectedLayer": "Layer"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -705,8 +721,8 @@
           "name": "barrier",
           "persistentUuid": "94e39fd6-107f-41ba-a65b-02ef99c11860",
           "width": 669,
-          "x": 336,
-          "y": 696,
+          "x": 346,
+          "y": 677,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -722,8 +738,8 @@
           "name": "barrier",
           "persistentUuid": "43392c68-f2d9-41be-8eee-dbe2d393d7bb",
           "width": 669,
-          "x": 336,
-          "y": 114,
+          "x": 340,
+          "y": 148,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -739,8 +755,8 @@
           "name": "barrier",
           "persistentUuid": "4d7c1eb6-bf1b-4983-833f-ffca68dd7c2a",
           "width": 418,
-          "x": 835,
-          "y": 495,
+          "x": 814,
+          "y": 481,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -756,8 +772,8 @@
           "name": "barrier",
           "persistentUuid": "8d4d8ebe-2445-4132-a008-1d2c28465799",
           "width": 373,
-          "x": 845,
-          "y": 175,
+          "x": 822,
+          "y": 201,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -773,15 +789,15 @@
           "name": "barrier",
           "persistentUuid": "bb3e31b2-1b90-4675-878d-ffabf7d08ed2",
           "width": 373,
-          "x": 129,
-          "y": 167,
+          "x": 163,
+          "y": 192,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 254,
+          "angle": 261,
           "customSize": true,
           "depth": 1,
           "height": 17,
@@ -790,8 +806,8 @@
           "name": "barrier",
           "persistentUuid": "1bec4420-07fa-4870-97a8-7e5400289f90",
           "width": 373,
-          "x": 113,
-          "y": 509,
+          "x": 124,
+          "y": 508,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -872,7 +888,7 @@
           "width": 0,
           "x": 566,
           "y": 327,
-          "zOrder": 11,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -946,16 +962,67 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 952,
+          "depth": 2,
+          "height": 805,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
-          "persistentUuid": "b376e386-a7c5-4e46-8264-86e930426f66",
-          "width": 912,
-          "x": 216,
-          "y": -127,
-          "zOrder": -50,
+          "persistentUuid": "a251e054-c97e-4bd0-9c8d-031ee735e846",
+          "width": 805,
+          "x": 271,
+          "y": -88,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 844,
+          "keepRatio": true,
+          "layer": "",
+          "name": "light",
+          "persistentUuid": "42e629fb-87bc-427e-a2f2-7a7b3df554c3",
+          "width": 844,
+          "x": 260,
+          "y": -105,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 50,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "persistentUuid": "2fa9714f-d156-40ae-a31f-7e45850a977d",
+          "width": 339,
+          "x": 190,
+          "y": 593,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 133,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "persistentUuid": "ef791bae-ac2b-4a47-a607-babe5b483852",
+          "width": 317,
+          "x": 796,
+          "y": 623,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1800,7 +1867,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
+                      "image": "IMG_6294[1].PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1816,20 +1883,80 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
-                            "y": 34
+                            "x": 2,
+                            "y": 76
                           },
                           {
-                            "x": 488,
-                            "y": 34
+                            "x": 500,
+                            "y": 76
                           },
                           {
-                            "x": 488,
-                            "y": 443
+                            "x": 500,
+                            "y": 500
                           },
                           {
-                            "x": 12,
-                            "y": 443
+                            "x": 2,
+                            "y": 500
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "light",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6295[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 23,
+                            "y": 130
+                          },
+                          {
+                            "x": 453,
+                            "y": 130
+                          },
+                          {
+                            "x": 453,
+                            "y": 478
+                          },
+                          {
+                            "x": 23,
+                            "y": 478
                           }
                         ]
                       ]
@@ -1881,6 +2008,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "light"
           }
         ]
       },
@@ -3570,10 +3700,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -4021,10 +4151,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cellHeight": 100,
-              "cellWidth": 100,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "cellHeight": 100,
+              "cellWidth": 100,
               "rotateObject": false,
               "acceleration": 400,
               "allowDiagonals": true,
