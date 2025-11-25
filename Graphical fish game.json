@@ -751,6 +751,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6309[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6309[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6310[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6310[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6307[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6307[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6306[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6306[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6308[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6308[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6307[1]2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6307[1]2.PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -782,7 +830,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001947989,
+        "zoomFactor": 0.4633111824514046,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3443,7 +3491,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445303,
+        "zoomFactor": 0.8416428125373384,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3637,7 +3685,7 @@
           "width": 16,
           "x": 533,
           "y": 118,
-          "zOrder": 10,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3908,7 +3956,7 @@
           "width": 0,
           "x": 334,
           "y": 467,
-          "zOrder": 11,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4195,6 +4243,118 @@
           "x": 2619,
           "y": 1813,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wallwater",
+          "persistentUuid": "1975208d-cd2a-4202-9d4e-d2a7b0e8c443",
+          "width": 0,
+          "x": 250,
+          "y": 338,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wallwater",
+          "persistentUuid": "ddbb0408-783f-4e9c-9e33-f34e56b10a25",
+          "width": 0,
+          "x": 374,
+          "y": 338,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor",
+          "persistentUuid": "d2436b84-9d78-4f6f-90e6-ceba03a34bdc",
+          "width": 0,
+          "x": 250,
+          "y": 212,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor",
+          "persistentUuid": "b7db1a5b-047c-4d8b-81b4-04da39b59a6e",
+          "width": 0,
+          "x": 249,
+          "y": 84,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor",
+          "persistentUuid": "2ada52a1-fd3d-42ce-95d7-052d23fbfd85",
+          "width": 0,
+          "x": 375,
+          "y": 217,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "b0851e73-6c07-4e80-872b-dbfbfcbded47",
+          "width": 0,
+          "x": 250,
+          "y": 466,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "53c9e094-561e-4876-aef0-e36de2b9d781",
+          "width": 0,
+          "x": 376,
+          "y": 465,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4515,11 +4675,11 @@
         },
         {
           "assetStoreId": "",
-          "height": 64,
-          "name": "Sewer_water",
-          "texture": "NewTiledSprite",
+          "height": 128,
+          "name": "water",
+          "texture": "IMG_6309[1].PNG",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 128,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -4535,10 +4695,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -4977,7 +5137,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "94ac102b672546ef270435e2802c980909cfcc5975cf2f32c4ce2105e25cb7b2",
           "name": "Gator",
           "type": "Sprite",
@@ -5029,20 +5189,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 32
+                            "x": 22,
+                            "y": 46.5
                           },
                           {
-                            "x": 305,
-                            "y": 32
+                            "x": 300,
+                            "y": 49
                           },
                           {
-                            "x": 305,
-                            "y": 169
+                            "x": 286.5,
+                            "y": 135.5
                           },
                           {
-                            "x": 14,
-                            "y": 169
+                            "x": 130.5,
+                            "y": 160
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 116
                           }
                         ]
                       ]
@@ -5065,20 +5229,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 32
+                            "x": 22,
+                            "y": 46.5
                           },
                           {
-                            "x": 305,
-                            "y": 32
+                            "x": 300,
+                            "y": 49
                           },
                           {
-                            "x": 305,
-                            "y": 169
+                            "x": 286.5,
+                            "y": 135.5
                           },
                           {
-                            "x": 14,
-                            "y": 169
+                            "x": 130.5,
+                            "y": 160
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 116
                           }
                         ]
                       ]
@@ -5114,20 +5282,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 32
+                            "x": 22,
+                            "y": 46.5
                           },
                           {
-                            "x": 305,
-                            "y": 32
+                            "x": 300,
+                            "y": 49
                           },
                           {
-                            "x": 305,
-                            "y": 169
+                            "x": 286.5,
+                            "y": 135.5
                           },
                           {
-                            "x": 14,
-                            "y": 169
+                            "x": 130.5,
+                            "y": 160
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 116
                           }
                         ]
                       ]
@@ -5150,20 +5322,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 32
+                            "x": 22,
+                            "y": 46.5
                           },
                           {
-                            "x": 305,
-                            "y": 32
+                            "x": 300,
+                            "y": 49
                           },
                           {
-                            "x": 305,
-                            "y": 169
+                            "x": 286.5,
+                            "y": 135.5
                           },
                           {
-                            "x": 14,
-                            "y": 169
+                            "x": 130.5,
+                            "y": 160
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 116
                           }
                         ]
                       ]
@@ -5205,13 +5381,62 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "wallwater",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6310[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -5272,17 +5497,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -5354,6 +5568,39 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "wall",
+          "texture": "IMG_6306[1].PNG",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 128,
+          "name": "floor",
+          "texture": "IMG_6308[1].PNG",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 128,
+          "name": "walltop",
+          "texture": "IMG_6307[1]2.PNG",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -5363,18 +5610,29 @@
             "objectName": "TopDown_Character"
           },
           {
+            "folderName": "tiles",
+            "children": [
+              {
+                "objectName": "floor"
+              },
+              {
+                "objectName": "wall"
+              },
+              {
+                "objectName": "wallwater"
+              },
+              {
+                "objectName": "water"
+              }
+            ]
+          },
+          {
             "folderName": "Mobile Controls",
             "children": [
               {
                 "objectName": "Joystick"
               }
             ]
-          },
-          {
-            "objectName": "Sewer_water"
-          },
-          {
-            "objectName": "NewSprite"
           },
           {
             "objectName": "barrier"
@@ -5407,13 +5665,13 @@
             "objectName": "Player_light"
           },
           {
-            "objectName": "NewSprite3"
-          },
-          {
             "objectName": "food"
           },
           {
             "objectName": "exit"
+          },
+          {
+            "objectName": "walltop"
           }
         ]
       },
