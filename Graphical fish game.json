@@ -353,7 +353,7 @@
       {
         "file": "assets/tiled_Tiled Flooring.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Tiled Flooring.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Tiled Flooring.png",
         "smoothed": false,
         "userAdded": false,
@@ -918,7 +918,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514046,
+        "zoomFactor": 0.5653158055126397,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -984,8 +984,8 @@
           "name": "barrier",
           "persistentUuid": "43392c68-f2d9-41be-8eee-dbe2d393d7bb",
           "width": 660,
-          "x": 349,
-          "y": 204,
+          "x": 353,
+          "y": 132,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1233,8 +1233,8 @@
           "name": "light",
           "persistentUuid": "42e629fb-87bc-427e-a2f2-7a7b3df554c3",
           "width": 844,
-          "x": 263,
-          "y": -96,
+          "x": 261,
+          "y": -97,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -1278,14 +1278,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1855,
+          "height": 2340,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite2",
           "persistentUuid": "169125ea-0ce7-4d47-b118-fe3eeb1b6dc8",
           "width": 1990,
-          "x": -315,
-          "y": -937,
+          "x": -339,
+          "y": -1245,
           "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2129,7 +2129,7 @@
           "assetStoreId": "36e485ce0d82bf08fb95416be533234ab70fcd431287029741ddebc4e81a70d1",
           "height": 64,
           "name": "Leaf_Spawner",
-          "texture": "tiled_Tiled Flooring.png",
+          "texture": "assets\\tile000.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
@@ -2144,8 +2144,8 @@
               "JustSpawnedAnObject": false,
               "MaxQuantityReached": false,
               "MaxQuantity": 0,
-              "SpawnerCapacity": 10,
-              "UnlimitedCapacity": false,
+              "SpawnerCapacity": 0,
+              "UnlimitedCapacity": true,
               "RandomPosition": true
             }
           ]
@@ -2610,6 +2610,17 @@
             },
             {
               "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "WoodYellowBar",
+                "=",
+                "TopDown_Character.Energy",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TopDownMovementBehavior::MaxSpeed"
               },
               "parameters": [
@@ -2617,17 +2628,6 @@
                 "TopDownMovement",
                 "=",
                 "TopDown_Character.Variable(Speed)"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Leaf",
-                "90",
-                "50",
-                ""
               ]
             },
             {
@@ -2648,13 +2648,34 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "AddForceAL"
               },
               "parameters": [
-                "WoodYellowBar",
-                "=",
-                "TopDown_Character.Energy",
+                "Leaf",
+                "90",
+                "50",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "Leaf_Spawner",
+                "ObjectSpawner",
+                "Leaf",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Leaf",
+                "ObjectSpawner",
+                "yes"
               ]
             }
           ]
@@ -2825,12 +2846,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -2839,27 +2854,6 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Leaf",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Leaf",
-                "ObjectSpawner",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "Leaf_Spawner",
-                "ObjectSpawner",
                 "Leaf",
                 ""
               ]
@@ -2938,7 +2932,7 @@
                     "Tut_0_text",
                     "Text",
                     "=",
-                    "\"Don't over eat!\""
+                    "\"Don't over eat! Press L Shift to burn some energy.\""
                   ]
                 }
               ]
