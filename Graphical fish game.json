@@ -5621,64 +5621,15 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "IMG_6327[1].WEBP",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1080,
-                            "y": 0
-                          },
-                          {
-                            "x": 1080,
-                            "y": 996
-                          },
-                          {
-                            "x": 0,
-                            "y": 996
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -5692,9 +5643,6 @@
             "children": [
               {
                 "objectName": "floor"
-              },
-              {
-                "objectName": "NewSprite"
               },
               {
                 "objectName": "void"
@@ -5762,6 +5710,9 @@
           },
           {
             "objectName": "exit"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },
