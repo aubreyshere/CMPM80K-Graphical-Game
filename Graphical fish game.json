@@ -3613,7 +3613,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.17130934511243423,
+        "zoomFactor": 0.17708595277545508,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3640,8 +3640,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 890,
-          "y": 161,
+          "x": 2871,
+          "y": 475,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -4337,14 +4337,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 2847,
+          "height": 1381,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
           "persistentUuid": "e1ddba55-b14a-42f2-9f11-a9511dd2574d",
           "width": 50,
-          "x": 3077,
-          "y": -1197,
+          "x": 3046,
+          "y": -1184,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -4751,9 +4751,43 @@
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
           "width": 524,
-          "x": 3762,
-          "y": 323,
+          "x": 3076,
+          "y": 161,
           "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlackDecoratedButton",
+          "persistentUuid": "0ead6754-51dc-4c3b-8c81-cf9f6f7a1e06",
+          "width": 174,
+          "x": 3271,
+          "y": 418,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 966,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "persistentUuid": "bd928205-bf05-487c-8a92-5f7b581ec7c8",
+          "width": 50,
+          "x": 3056,
+          "y": 709,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6022,6 +6056,24 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+          "name": "BlackDecoratedButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Black Decorated Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 6,
+            "BottomPadding": 24,
+            "TopPadding": 20,
+            "HoveredFadeOutDuration": 0.25,
+            "LabelText": "Next scene"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6099,6 +6151,9 @@
           },
           {
             "objectName": "trash2"
+          },
+          {
+            "objectName": "BlackDecoratedButton"
           }
         ]
       },
@@ -6268,32 +6323,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "exit",
-                "=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Ocean\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -6932,6 +6963,65 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene Progression"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "exit",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlackDecoratedButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "BlackDecoratedButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Ocean\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -7236,7 +7326,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311589,
+        "zoomFactor": 0.713037763069052,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -30392,6 +30482,36 @@
                       "useLegacyBottomAndRightAnchors": false
                     }
                   ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
                 }
               ],
               "objectsFolderStructure": {
@@ -30408,6 +30528,9 @@
                   },
                   {
                     "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
                   }
                 ]
               },
@@ -30423,6 +30546,17 @@
                     },
                     {
                       "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
                     }
                   ]
                 }
