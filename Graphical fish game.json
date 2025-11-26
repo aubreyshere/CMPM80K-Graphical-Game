@@ -887,6 +887,46 @@
         "name": "IMG_6327[1].WEBP",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6329[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6329[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6330[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6330[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6331[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6331[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6334[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6334[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6335[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6335[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3573,7 +3613,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2386775827025997,
+        "zoomFactor": 0.17130934511243423,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3770,22 +3810,6 @@
           "initialVariables": []
         },
         {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floorcorner",
-          "persistentUuid": "7453e2c1-74d5-4fd1-97e1-8535bcd7ffe4",
-          "width": 0,
-          "x": -824,
-          "y": -951,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 1,
@@ -3798,54 +3822,6 @@
           "x": 105,
           "y": -1169,
           "zOrder": -100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floorcorner",
-          "persistentUuid": "518c8512-fbc8-45bd-80fa-ed87d0dbf922",
-          "width": 0,
-          "x": 1166,
-          "y": -1697,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floorcorner",
-          "persistentUuid": "f0ece8a0-466e-4db0-80f3-1352edb77957",
-          "width": 0,
-          "x": -639,
-          "y": -358,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floorcorner",
-          "persistentUuid": "a5502448-a617-4af3-a728-4642ffc479be",
-          "width": 0,
-          "x": -1367,
-          "y": -359,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3937,14 +3913,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 2836,
+          "height": 1421,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "56ffffbd-fa9c-404d-82cd-fbe96aff9fdc",
           "width": 128,
-          "x": 3038,
-          "y": -1169,
+          "x": 3030,
+          "y": -1177,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -3963,23 +3939,6 @@
           "x": -955,
           "y": -452,
           "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "2807a336-eea0-40e4-8357-73d15d591b0d",
-          "width": 1037,
-          "x": 464,
-          "y": -742,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4087,23 +4046,6 @@
           "initialVariables": []
         },
         {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floorcorner",
-          "persistentUuid": "26814caa-6753-4789-89d5-6aa8cceac985",
-          "width": 58,
-          "x": -1174,
-          "y": 297,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": false,
           "height": 0,
@@ -4166,91 +4108,6 @@
           "x": -1292,
           "y": 290,
           "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 95,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "cbaf2302-3f12-4157-8ba4-3a86ebee37e6",
-          "width": 1508,
-          "x": 457,
-          "y": 711,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "5cd604e7-502a-4b20-ad21-bddf57cce035",
-          "width": 921,
-          "x": 110,
-          "y": 329,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 93,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "467a1b2d-8bdd-4b30-b57f-a428442fb1c7",
-          "width": 961,
-          "x": 105,
-          "y": -418,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 92,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "b6a8fba1-37bc-4f4f-bfb3-41c3ac76b656",
-          "width": 936,
-          "x": 115,
-          "y": -45,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 92,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "8f285365-c1ab-4239-9500-8c0bf947dc06",
-          "width": 3006,
-          "x": 113,
-          "y": -1189,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4395,40 +4252,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "77837035-547a-4daf-9345-cc323b661e6a",
-          "width": 436,
-          "x": 1898,
-          "y": -110,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "d77ca0c3-b7c3-4bdc-b3cb-3f25282ef366",
-          "width": 738,
-          "x": 1953,
-          "y": 262,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 623,
           "keepRatio": true,
           "layer": "",
@@ -4463,23 +4286,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "6767738b-f9bf-4cb4-98b2-918b2e4aafa8",
-          "width": 63,
-          "x": 2622,
-          "y": -110,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 286,
           "keepRatio": true,
           "layer": "",
@@ -4489,23 +4295,6 @@
           "x": 2243,
           "y": -401,
           "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 90,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "24c677ca-879a-4ec2-a059-ea3edbcf5206",
-          "width": 1175,
-          "x": 1899,
-          "y": -741,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4554,8 +4343,8 @@
           "name": "barrier",
           "persistentUuid": "e1ddba55-b14a-42f2-9f11-a9511dd2574d",
           "width": 50,
-          "x": 3068,
-          "y": -1145,
+          "x": 3077,
+          "y": -1197,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -4735,23 +4524,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 87,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "9822ca17-22cc-491b-beaf-140166a5c20a",
-          "width": 1140,
-          "x": 1546,
-          "y": 1230,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 458,
           "keepRatio": true,
           "layer": "",
@@ -4795,23 +4567,6 @@
           "x": 428,
           "y": 1234,
           "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 87,
-          "keepRatio": true,
-          "layer": "",
-          "name": "wallwater",
-          "persistentUuid": "dcf35dc4-5bdc-4285-8c8c-e3ce00c5ce61",
-          "width": 346,
-          "x": 492,
-          "y": 1233,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4905,14 +4660,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 2954,
+          "height": 1541,
           "keepRatio": true,
           "layer": "",
           "name": "wall",
           "persistentUuid": "877c289e-ba5f-41de-ada4-ebb6069c74d5",
           "width": 475,
-          "x": 3115,
-          "y": -1243,
+          "x": 3107,
+          "y": -1299,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -4948,6 +4703,57 @@
           "x": -458,
           "y": -1546,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1061,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "c3b1a8b3-6d61-4887-8f95-308bc75eec9d",
+          "width": 475,
+          "x": 3090,
+          "y": 675,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1019,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "9d8dc2b2-3ce5-4093-bb36-bc28d93a81ea",
+          "width": 128,
+          "x": 3028,
+          "y": 682,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 556,
+          "keepRatio": true,
+          "layer": "",
+          "name": "exit",
+          "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
+          "width": 524,
+          "x": 3762,
+          "y": 323,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6057,18 +5863,7 @@
           "assetStoreId": "",
           "height": 128,
           "name": "floor",
-          "texture": "IMG_6321[1]2.PNG",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 128,
-          "name": "floorcorner",
-          "texture": "IMG_6322[1].PNG",
+          "texture": "IMG_6331[1].PNG",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -6079,29 +5874,7 @@
           "assetStoreId": "",
           "height": 128,
           "name": "walltopside",
-          "texture": "IMG_6315[1].PNG",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 128,
-          "name": "walltop",
-          "texture": "IMG_6316[1].PNG",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 128,
-          "name": "wallwater",
-          "texture": "IMG_6310[1].PNG",
+          "texture": "IMG_6330[1].PNG",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -6112,7 +5885,7 @@
           "assetStoreId": "",
           "height": 128,
           "name": "walltopcorner",
-          "texture": "IMG_6326[1].PNG",
+          "texture": "IMG_6329[1].PNG",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -6131,15 +5904,124 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "name": "trash1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6334[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 64,
+                            "y": 1
+                          },
+                          {
+                            "x": 64,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "trash2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6335[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 63
+                          },
+                          {
+                            "x": 0,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6164,16 +6046,7 @@
                 "objectName": "walltopcorner"
               },
               {
-                "objectName": "floorcorner"
-              },
-              {
-                "objectName": "walltop"
-              },
-              {
                 "objectName": "wall"
-              },
-              {
-                "objectName": "wallwater"
               },
               {
                 "objectName": "water"
@@ -6222,7 +6095,10 @@
             "objectName": "exit"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "trash1"
+          },
+          {
+            "objectName": "trash2"
           }
         ]
       },
