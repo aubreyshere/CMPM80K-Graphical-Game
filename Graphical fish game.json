@@ -929,52 +929,12 @@
         "userAdded": false
       },
       {
-        "file": "assets/Lake Trout_No Shadow.png",
+        "file": "ocean.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "Lake Trout_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/d99a76be3d605740b050e452eae3ed0033014690b0a83a4871f06d380e161a6e_Lake Trout_No Shadow.png",
-          "name": "Lake Trout_No Shadow.png"
-        }
-      },
-      {
-        "file": "assets/Lake Trout_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Lake Trout_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/b370d1d88e4a43d2a6bbf85bd65f043a8082a9d941f3bf7abecf01221b8c034d_Lake Trout_Shadow.png",
-          "name": "Lake Trout_Shadow.png"
-        }
-      },
-      {
-        "file": "assets/Worm Bait_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Worm Bait_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/5e6cfd6c764dc872b45c353a22bfc4b1761a5d60fbe186fee8f10e81f6f4b1d3_Worm Bait_No Shadow.png",
-          "name": "Worm Bait_No Shadow.png"
-        }
-      },
-      {
-        "file": "assets/Worm Bait_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Worm Bait_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/ba0721585aa6f8d46cd08c7b5dfbeb7f277652339de14df893c69216dec2a072_Worm Bait_Shadow.png",
-          "name": "Worm Bait_Shadow.png"
-        }
+        "name": "ocean.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3661,7 +3621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673771041,
+        "zoomFactor": 0.14039857806035305,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3688,9 +3648,9 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 890,
-          "y": 161,
-          "zOrder": 33,
+          "x": 2871,
+          "y": 475,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4385,14 +4345,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 979,
+          "height": 1381,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
           "persistentUuid": "e1ddba55-b14a-42f2-9f11-a9511dd2574d",
           "width": 50,
-          "x": 3065,
-          "y": 675,
+          "x": 3046,
+          "y": -1184,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -4799,8 +4759,8 @@
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
           "width": 524,
-          "x": 3762,
-          "y": 323,
+          "x": 3076,
+          "y": 161,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -4809,16 +4769,50 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 64,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlackDecoratedButton",
+          "persistentUuid": "0ead6754-51dc-4c3b-8c81-cf9f6f7a1e06",
+          "width": 174,
+          "x": 3271,
+          "y": 418,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "depth": 1,
-          "height": 1363,
+          "height": 966,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
-          "persistentUuid": "eac537ac-e38d-4c70-b869-5cb64b4b5223",
+          "persistentUuid": "bd928205-bf05-487c-8a92-5f7b581ec7c8",
           "width": 50,
-          "x": 3074,
-          "y": -1130,
+          "x": 3056,
+          "y": 709,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 581,
+          "keepRatio": true,
+          "layer": "",
+          "name": "exit",
+          "persistentUuid": "ffbc4fc8-b857-40bd-9955-756fbe62f65d",
+          "width": 542,
+          "x": 3075,
+          "y": 128,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6087,6 +6081,24 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+          "name": "BlackDecoratedButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Black Decorated Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 6,
+            "BottomPadding": 24,
+            "TopPadding": 20,
+            "HoveredFadeOutDuration": 0.25,
+            "LabelText": "Next scene"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6164,6 +6176,9 @@
           },
           {
             "objectName": "trash2"
+          },
+          {
+            "objectName": "BlackDecoratedButton"
           }
         ]
       },
@@ -6333,32 +6348,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "exit",
-                "=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Ocean\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -6947,6 +6938,14 @@
                 "100",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BlackDecoratedButton"
+              ]
             }
           ]
         },
@@ -6994,6 +6993,65 @@
                 "1",
                 "=",
                 " max(0, 100 * (1 - Variable(Enemy_distance)/500))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene Progression"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "exit",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlackDecoratedButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "BlackDecoratedButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Ocean\"",
+                ""
               ]
             }
           ]
@@ -7301,7 +7359,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741029,
+        "zoomFactor": 0.44819780454104335,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7317,8 +7375,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 89,
-          "y": 204,
+          "x": 369,
+          "y": 261,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7408,32 +7466,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 65,
+          "height": 729,
           "keepRatio": true,
           "layer": "",
-          "name": "Lake_Trout",
-          "persistentUuid": "5212b204-cda2-4526-8771-ada7f0d5755a",
-          "width": 91,
-          "x": 790,
-          "y": 366,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 55,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Worm_Bait",
-          "persistentUuid": "1dc5e3cf-82e3-40b7-ac2b-fe2d9164f93a",
-          "width": 58,
-          "x": 447,
-          "y": 519,
-          "zOrder": 11,
+          "name": "NewSprite",
+          "persistentUuid": "09da42cc-ac18-486b-847d-39338eab4f05",
+          "width": 1282,
+          "x": 1,
+          "y": -1,
+          "zOrder": -40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7456,11 +7497,6 @@
               "name": "Speed",
               "type": "number",
               "value": 100
-            },
-            {
-              "name": "Size",
-              "type": "number",
-              "value": 0
             }
           ],
           "effects": [],
@@ -8222,46 +8258,18 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "ef6d385dd28fed6522f2a9bbd0d4bdc6259a543797f22713eb235cefb455b47c",
-          "name": "Lake_Trout",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 200,
-              "name": "Pathfinding",
-              "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
-            }
-          ],
           "animations": [
             {
-              "name": "No Shadow",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Lake Trout_No Shadow.png",
+                      "image": "ocean.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8277,176 +8285,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 3
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 29,
-                            "y": 3
+                            "x": 643,
+                            "y": 0
                           },
                           {
-                            "x": 29,
-                            "y": 29
+                            "x": 643,
+                            "y": 360
                           },
                           {
-                            "x": 3,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Shadow",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Lake Trout_Shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 3
-                          },
-                          {
-                            "x": 29,
-                            "y": 29
-                          },
-                          {
-                            "x": 3,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "2d0df3f8eb217b3524541918bc19e8a87ead07d0d2ec022fc12ee34eb95e496d",
-          "name": "Worm_Bait",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "No Shadow",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Worm Bait_No Shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 3
-                          },
-                          {
-                            "x": 27,
-                            "y": 3
-                          },
-                          {
-                            "x": 27,
-                            "y": 29
-                          },
-                          {
-                            "x": 6,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Shadow",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Worm Bait_Shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 3
-                          },
-                          {
-                            "x": 27,
-                            "y": 3
-                          },
-                          {
-                            "x": 27,
-                            "y": 29
-                          },
-                          {
-                            "x": 6,
-                            "y": 29
+                            "x": 0,
+                            "y": 360
                           }
                         ]
                       ]
@@ -8495,12 +8347,6 @@
           },
           {
             "objectName": "NewSprite"
-          },
-          {
-            "objectName": "Lake_Trout"
-          },
-          {
-            "objectName": "Worm_Bait"
           }
         ]
       },
@@ -8584,26 +8430,8 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
-                "Lake_Trout",
-                "\"calculatePath\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
                 "TopDown_Character",
                 "\"sprintCounter\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"hunger\""
               ]
             }
           ]
@@ -8740,72 +8568,16 @@
                 "+",
                 "1"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "=",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"hunger\"",
-                ">=",
-                "15"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"hunger\""
-              ]
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "-",
-                "1"
+                "Scale",
+                "=",
+                "2"
               ]
             }
           ]
@@ -8931,339 +8703,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Health system"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Lake_Trout",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"damage sound\"",
-                ">=",
-                "4"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                "<",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Health",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\retro-hurt-2-236675.mp3",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "\"collisionTimer\"",
-                "\"damage sound\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "\"damage sound\"",
-                ">=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "\"collisionTimer\"",
-                "\"damage sound\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\retro-hurt-2-236675.mp3",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Health",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Health",
-                "=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game over\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Predators"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Lake_Trout",
-                "\"calculatePath\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Lake_Trout",
-                "Pathfinding",
-                "",
-                "TopDown_Character.X()",
-                "TopDown_Character.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Lake_Trout",
-                "\"calculatePath\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Prey"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Worm_Bait",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Worm_Bait",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Scene progression"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                "=",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -9386,10 +8825,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
@@ -31171,6 +30606,36 @@
                       "useLegacyBottomAndRightAnchors": false
                     }
                   ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
                 }
               ],
               "objectsFolderStructure": {
@@ -31187,6 +30652,9 @@
                   },
                   {
                     "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
                   }
                 ]
               },
@@ -31202,6 +30670,17 @@
                     },
                     {
                       "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
                     }
                   ]
                 }
