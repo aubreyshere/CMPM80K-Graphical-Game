@@ -3514,7 +3514,7 @@
                   "parameters": [
                     "TopDown_Character",
                     "Energy",
-                    "<",
+                    "<=",
                     "10"
                   ]
                 }
@@ -14182,7 +14182,7 @@
                         "Object",
                         "Behavior",
                         "=",
-                        "\"360°\""
+                        "\"360\u00b0\""
                       ]
                     }
                   ],
@@ -14687,8 +14687,8 @@
                   "value": "Analog"
                 },
                 {
-                  "label": "360°",
-                  "value": "360°"
+                  "label": "360\u00b0",
+                  "value": "360\u00b0"
                 },
                 {
                   "label": "8 Directions",
@@ -19521,7 +19521,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "VarianceX = sum((X[i] - MeanX)²)\nVarianceY = sum((Y[i] - MeanY)²)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))"
+                          "comment": "VarianceX = sum((X[i] - MeanX)\u00b2)\nVarianceY = sum((Y[i] - MeanY)\u00b2)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -20163,7 +20163,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a² + 1)\nProjectedY = y + (x * a - y + b) / (a² + 1)"
+                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a\u00b2 + 1)\nProjectedY = y + (x * a - y + b) / (a\u00b2 + 1)"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -40955,7 +40955,7 @@
                               "parameters": [
                                 "StickMode",
                                 "=",
-                                "\"360°\""
+                                "\"360\u00b0\""
                               ]
                             }
                           ],
@@ -41159,7 +41159,7 @@
                               "parameters": [
                                 "StickMode",
                                 "=",
-                                "\"360°\""
+                                "\"360\u00b0\""
                               ]
                             }
                           ],
@@ -41377,8 +41377,8 @@
                   "value": "Analog"
                 },
                 {
-                  "label": "360°",
-                  "value": "360°"
+                  "label": "360\u00b0",
+                  "value": "360\u00b0"
                 },
                 {
                   "label": "8 Directions",
