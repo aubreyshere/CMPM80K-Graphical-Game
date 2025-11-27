@@ -3662,7 +3662,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896773187,
+        "zoomFactor": 0.16572117247528395,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7873,7 +7873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311591,
+        "zoomFactor": 0.6897782140104618,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8020,9 +8020,298 @@
           "name": "oceanimg",
           "persistentUuid": "77483482-00a1-483f-9b83-b527361003e5",
           "width": 1504,
-          "x": -140,
-          "y": -67,
+          "x": -102,
+          "y": -70,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "72cadf96-53d0-4974-87c5-a93c078cc3be",
+          "width": 58,
+          "x": 360,
+          "y": 361,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "1e8088a5-cb10-499a-b69e-5297fe782b74",
+          "width": 58,
+          "x": 428,
+          "y": 542,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "ffc4c8c2-7493-4905-b13c-25db05500bee",
+          "width": 58,
+          "x": 447,
+          "y": 554,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "28e5c4e1-8244-4a0c-b558-f50285c40dc8",
+          "width": 58,
+          "x": 447,
+          "y": 558,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "53f8357c-aef8-404c-965e-602de21b69f8",
+          "width": 58,
+          "x": 384,
+          "y": 383,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "51a66ebd-825f-4524-8ab8-0831fd501c89",
+          "width": 58,
+          "x": 402,
+          "y": 365,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "4ab25227-8875-471f-aeeb-b16a443c849f",
+          "width": 58,
+          "x": 491,
+          "y": 570,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "16b9c21c-0905-41db-975b-c347ba00ac9a",
+          "width": 58,
+          "x": 488,
+          "y": 574,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "23488e96-509f-4451-89c5-0908b0cb4bf7",
+          "width": 58,
+          "x": 388,
+          "y": 396,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "018a1938-d101-437a-9854-e33c017e0ae8",
+          "width": 58,
+          "x": 510,
+          "y": 574,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "76282812-3e8d-4932-9c91-e6216387fbb7",
+          "width": 58,
+          "x": 516,
+          "y": 567,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "754a92dd-5752-45fb-85fa-64d4ff4cd1c3",
+          "width": 58,
+          "x": 391,
+          "y": 388,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "59148e6c-acce-4b84-87ed-d35c47b07b86",
+          "width": 58,
+          "x": 392,
+          "y": 379,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "eec338d6-3273-476d-aa1d-cad5e22f6fd7",
+          "width": 58,
+          "x": 397,
+          "y": 397,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "6ae7df4b-6e4c-4608-a560-539509a20168",
+          "width": 58,
+          "x": 384,
+          "y": 371,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "cf06a19d-b814-476a-9e9f-8665f593cd20",
+          "width": 58,
+          "x": 360,
+          "y": 396,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "9fad0e71-d497-45e6-a5d1-14f2daa0813e",
+          "width": 58,
+          "x": 361,
+          "y": 398,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8039,17 +8328,17 @@
             {
               "name": "Energy",
               "type": "number",
-              "value": 10
+              "value": 50
             },
             {
               "name": "MaxEnergy",
-              "type": "string",
-              "value": ""
+              "type": "number",
+              "value": 0
             },
             {
               "name": "Stage",
               "type": "number",
-              "value": 1
+              "value": 3
             },
             {
               "name": "Speed",
@@ -8241,7 +8530,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 117,
+                            "y": 41
+                          },
+                          {
+                            "x": 143.5,
+                            "y": 85.5
+                          },
+                          {
+                            "x": 109.5,
+                            "y": 122
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 119.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 43.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9331,17 +9643,6 @@
                 ">=",
                 "5"
               ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                ">",
-                "1"
-              ]
             }
           ],
           "actions": [
@@ -9398,36 +9699,26 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "TopDown_Character",
-                "Leaf",
-                "",
-                "",
-                ""
+                "Energy",
+                "<",
+                "10"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Leaf",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "+",
-                "1"
+                "Animation",
+                "=",
+                "\"stage1\""
               ]
             }
           ]
@@ -9454,9 +9745,40 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "Size",
+                "Stage",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hunger\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "=",
+                "50"
               ]
             }
           ]
@@ -9470,13 +9792,35 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "Size",
-                ">=",
-                "11"
+                "Energy",
+                "=",
+                "50"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -9485,7 +9829,7 @@
                 "TopDown_Character",
                 "Animation",
                 "=",
-                "\"stage2\""
+                "\"stage3\""
               ]
             }
           ]
@@ -9542,17 +9886,28 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1\""
+                "TopDownMovement",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -9562,80 +9917,25 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "TopDown_Character",
+                "TopDownMovement",
+                ">",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1_left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Right\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Left\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1_left\""
+                "Flippable",
+                "no"
               ]
             }
           ]
@@ -9684,7 +9984,7 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "Size",
+                "Stage",
                 "<",
                 "7"
               ]
@@ -9891,6 +10191,45 @@
               },
               "parameters": [
                 "TopDown_Character",
+                "Leaf",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Leaf",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
                 "Worm_Bait",
                 "",
                 "",
@@ -9954,9 +10293,9 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "Size",
+                "Energy",
                 "=",
-                "10"
+                "100"
               ]
             }
           ],

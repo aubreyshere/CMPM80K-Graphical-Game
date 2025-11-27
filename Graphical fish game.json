@@ -7873,7 +7873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311591,
+        "zoomFactor": 0.9610368693714886,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7889,8 +7889,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 89,
-          "y": 204,
+          "x": 106,
+          "y": 205,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8003,8 +8003,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "1dc5e3cf-82e3-40b7-ac2b-fe2d9164f93a",
           "width": 58,
-          "x": 447,
-          "y": 519,
+          "x": 564,
+          "y": 354,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -8026,6 +8026,652 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "df1017ff-0d23-4f81-bf5e-e9a9fef18612",
+          "width": 58,
+          "x": 480,
+          "y": 354,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "b7b6bda9-1578-452a-8054-4efab89f8d79",
+          "width": 58,
+          "x": 563,
+          "y": 296,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "f951a311-972c-47f8-a056-d4027bdd476a",
+          "width": 58,
+          "x": 459,
+          "y": 305,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "13c110d5-c3c5-4802-8015-5afb95fa9d27",
+          "width": 58,
+          "x": 403,
+          "y": 314,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "ca4026b7-fef2-46da-a195-eb0baeb340a4",
+          "width": 58,
+          "x": 361,
+          "y": 377,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "183f8c1f-81ce-4768-89cd-837ddf902bde",
+          "width": 58,
+          "x": 436,
+          "y": 363,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "a9b7eddc-6c8e-431d-953c-7663f6c7e8e2",
+          "width": 58,
+          "x": 515,
+          "y": 349,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "848fa78e-2153-4f2d-853c-d1f0486873b7",
+          "width": 58,
+          "x": 355,
+          "y": 299,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "929a2963-5ab7-408e-91c7-a7220ca5e1da",
+          "width": 58,
+          "x": 497,
+          "y": 304,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "7d82c017-b029-4f66-8b9e-0112856bdc2d",
+          "width": 58,
+          "x": 433,
+          "y": 473,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "ca57cbb2-b170-4b85-88a0-9f765585d99d",
+          "width": 35,
+          "x": 633,
+          "y": 186,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "6fe3c720-d07e-476c-bb2a-35c6716692b2",
+          "width": 35,
+          "x": 704,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "68b810d7-2688-4a2f-98e4-52d84d4ac4f9",
+          "width": 35,
+          "x": 783,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "2ed31e10-0176-412b-a5b3-08ab78763eb9",
+          "width": 35,
+          "x": 873,
+          "y": 186,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "8377044a-e782-49af-85d4-2ddeecb97e77",
+          "width": 35,
+          "x": 941,
+          "y": 198,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "9eabe692-02a1-4733-8b98-833d6ba2bdce",
+          "width": 35,
+          "x": 935,
+          "y": 262,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "34c06685-4f20-4a19-97c2-8ec0775a3683",
+          "width": 35,
+          "x": 882,
+          "y": 249,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "da5b0cf3-6f10-47df-a380-13e0b2ce3d93",
+          "width": 35,
+          "x": 777,
+          "y": 249,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "180050b8-6f4a-432c-9332-e10cf6043156",
+          "width": 35,
+          "x": 708,
+          "y": 245,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "03b971e1-b406-4461-a95d-34722dc45065",
+          "width": 35,
+          "x": 629,
+          "y": 251,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "4647aa3f-9de4-4c0a-86d1-df67ee98606b",
+          "width": 35,
+          "x": 672,
+          "y": 201,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "283aace4-7e78-431a-a975-77ecd809f230",
+          "width": 35,
+          "x": 678,
+          "y": 262,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "5796da75-0539-42f7-a79c-9ef435cc19a8",
+          "width": 35,
+          "x": 743,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "6406c7f4-3c8c-4019-9705-3b46a254b00c",
+          "width": 35,
+          "x": 743,
+          "y": 266,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "bae3f99f-50b2-45d8-a88e-733368a50fec",
+          "width": 35,
+          "x": 841,
+          "y": 245,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "b22d920c-da97-4e3d-a960-9bd52284301a",
+          "width": 35,
+          "x": 837,
+          "y": 173,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "0996bbac-d347-4df1-8fee-5c74db6720b4",
+          "width": 35,
+          "x": 906,
+          "y": 183,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "1313b065-3b44-4202-aa97-477baa51cae6",
+          "width": 35,
+          "x": 903,
+          "y": 259,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "32119074-e19c-4d60-ba7f-016e27448c8d",
+          "width": 58,
+          "x": 670,
+          "y": 445,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "241670f1-a8cc-4dc7-93f6-99634f475bff",
+          "width": 58,
+          "x": 681,
+          "y": 500,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "10c0250c-1814-41a0-a649-b8aafb49b66f",
+          "width": 58,
+          "x": 736,
+          "y": 479,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "23c09eaf-e18c-4e23-b951-5655738c323c",
+          "width": 58,
+          "x": 725,
+          "y": 419,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "8643dc7e-b831-45f3-be9c-f604392c6507",
+          "width": 58,
+          "x": 790,
+          "y": 436,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "d2867293-d753-410d-8871-9532df8c023b",
+          "width": 58,
+          "x": 791,
+          "y": 478,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "3529572b-d24d-4ca8-bd80-ebeea049da88",
+          "width": 58,
+          "x": 850,
+          "y": 500,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "70b28b0f-bebe-4265-8e31-54460d83ab7e",
+          "width": 58,
+          "x": 842,
+          "y": 447,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "207898d2-af8f-4833-a349-e712769aab37",
+          "width": 58,
+          "x": 899,
+          "y": 461,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "1f8695ba-dc2b-4cc6-8eb2-13e5626885bc",
+          "width": 58,
+          "x": 902,
+          "y": 504,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -8039,17 +8685,17 @@
             {
               "name": "Energy",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
               "name": "MaxEnergy",
-              "type": "string",
-              "value": ""
+              "type": "number",
+              "value": 10
             },
             {
               "name": "Stage",
               "type": "number",
-              "value": 1
+              "value": 0
             },
             {
               "name": "Speed",
@@ -8175,7 +8821,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -8241,7 +8887,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19.5,
+                            "y": 51
+                          },
+                          {
+                            "x": 109,
+                            "y": 42.5
+                          },
+                          {
+                            "x": 150,
+                            "y": 85
+                          },
+                          {
+                            "x": 116,
+                            "y": 123
+                          },
+                          {
+                            "x": 17.5,
+                            "y": 117
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9244,6 +9913,17 @@
             },
             {
               "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "WoodYellowBar",
+                "=",
+                "TopDown_Character.MaxEnergy",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TopDownMovementBehavior::MaxSpeed"
               },
               "parameters": [
@@ -9307,6 +9987,164 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Fish Stages"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Energy system"
         },
         {
@@ -9330,17 +10168,6 @@
                 "\"sprintCounter\"",
                 ">=",
                 "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                ">",
-                "1"
               ]
             }
           ],
@@ -9398,103 +10225,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Leaf",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Leaf",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "=",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                ">=",
-                "11"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage2\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -9542,17 +10272,28 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1\""
+                "TopDownMovement",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -9562,80 +10303,25 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "TopDown_Character",
+                "TopDownMovement",
+                ">",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1_left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Right\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Left\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1_left\""
+                "Flippable",
+                "no"
               ]
             }
           ]
@@ -9676,17 +10362,6 @@
                 "\"damage sound\"",
                 ">=",
                 "4"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Size",
-                "<",
-                "7"
               ]
             }
           ],
@@ -9891,6 +10566,57 @@
               },
               "parameters": [
                 "TopDown_Character",
+                "Leaf",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Leaf",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Energy",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
                 "Worm_Bait",
                 "",
                 "",
@@ -9954,9 +10680,9 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "Size",
+                "Stage",
                 "=",
-                "10"
+                "3"
               ]
             }
           ],
