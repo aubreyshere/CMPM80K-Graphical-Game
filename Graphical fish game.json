@@ -686,14 +686,6 @@
         }
       },
       {
-        "file": "assets/pixilart-sprite.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\pixilart-sprite.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/tile000.png",
         "kind": "image",
         "metadata": "",
@@ -887,6 +879,62 @@
         "kind": "image",
         "metadata": "",
         "name": "IMG_6330[1]2.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exit",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oceanfloor.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\oceanfloor.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6337[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6337[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6338[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6338[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "blob:file:///c6fca4c5-9051-4b35-a42c-93efce4d1778",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"IMG_6336[1].PNG\",\"extension\":\".png\"}",
+        "name": "IMG_6336[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "blob:file:///9d78da76-ba56-492c-8982-8c56df50393c",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"IMG_6338[1]4.PNG\",\"extension\":\".png\"}",
+        "name": "IMG_6338[1]4.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6338[1]5.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6338[1]5.PNG",
         "smoothed": true,
         "userAdded": false
       }
@@ -3581,7 +3629,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1770859527754555,
+        "zoomFactor": 0.2725359896773187,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4714,8 +4762,8 @@
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
           "width": 524,
-          "x": 3518,
-          "y": 148,
+          "x": 3051,
+          "y": 189,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -5536,7 +5584,21 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "ObjectSpawner",
+              "type": "ObjectSpawner::ObjectSpawner",
+              "SpawnPeriod": 1,
+              "OffsetX": 0,
+              "OffsetY": 0,
+              "JustSpawnedAnObject": false,
+              "MaxQuantityReached": false,
+              "MaxQuantity": 0,
+              "SpawnerCapacity": 100,
+              "UnlimitedCapacity": true,
+              "RandomPosition": true
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -6301,7 +6363,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "exit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "exit",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -6689,6 +6801,17 @@
               },
               "parameters": [
                 "barrier"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "water",
+                "ObjectSpawner",
+                "Leaf",
+                ""
               ]
             }
           ]
@@ -7650,6 +7773,10 @@
           "type": "Health::Health"
         },
         {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -7713,7 +7840,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330088,
+        "zoomFactor": 0.6455105703311591,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7846,6 +7973,23 @@
           "x": 447,
           "y": 519,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 854,
+          "keepRatio": true,
+          "layer": "",
+          "name": "oceanimg",
+          "persistentUuid": "77483482-00a1-483f-9b83-b527361003e5",
+          "width": 1504,
+          "x": -140,
+          "y": -67,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8868,6 +9012,291 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "oceanimg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\oceanfloor.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 480,
+                            "y": 0
+                          },
+                          {
+                            "x": 480,
+                            "y": 261
+                          },
+                          {
+                            "x": 0,
+                            "y": 261
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "bigfish",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6337[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 114
+                          },
+                          {
+                            "x": 7,
+                            "y": 50
+                          },
+                          {
+                            "x": 114,
+                            "y": 43
+                          },
+                          {
+                            "x": 143.5,
+                            "y": 85.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 120.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6337[1]3.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 114
+                          },
+                          {
+                            "x": 7,
+                            "y": 50
+                          },
+                          {
+                            "x": 114,
+                            "y": 43
+                          },
+                          {
+                            "x": 143.5,
+                            "y": 85.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 120.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "biggestfish",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6338[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 14
+                          },
+                          {
+                            "x": 320,
+                            "y": 14
+                          },
+                          {
+                            "x": 320,
+                            "y": 306
+                          },
+                          {
+                            "x": 0,
+                            "y": 306
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6338[1]5.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 14
+                          },
+                          {
+                            "x": 320,
+                            "y": 14
+                          },
+                          {
+                            "x": 320,
+                            "y": 306
+                          },
+                          {
+                            "x": 0,
+                            "y": 306
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8875,6 +9304,12 @@
         "children": [
           {
             "objectName": "TopDown_Character"
+          },
+          {
+            "objectName": "bigfish"
+          },
+          {
+            "objectName": "biggestfish"
           },
           {
             "folderName": "Mobile Controls",
@@ -8913,6 +9348,9 @@
           },
           {
             "objectName": "Worm_Bait"
+          },
+          {
+            "objectName": "oceanimg"
           }
         ]
       },
