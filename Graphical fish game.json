@@ -1040,6 +1040,38 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": " crab.png",
+        "kind": "image",
+        "metadata": "",
+        "name": " crab.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octopus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "octopus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ocean.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ocean.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": " crab2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": " crab2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3871,7 +3903,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416126494,
+        "zoomFactor": 0.15508574551594478,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -8555,7 +8587,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3673257545058888,
+        "zoomFactor": 0.7130377630690559,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8688,23 +8720,6 @@
           "x": 564,
           "y": 354,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1475,
-          "keepRatio": true,
-          "layer": "",
-          "name": "oceanimg",
-          "persistentUuid": "77483482-00a1-483f-9b83-b527361003e5",
-          "width": 2503,
-          "x": -651,
-          "y": -329,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9359,15 +9374,50 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 768,
+          "height": 221,
           "keepRatio": true,
           "layer": "",
-          "name": "blackScreen",
-          "persistentUuid": "297b9546-a10e-4868-8b29-0514ac62f13c",
-          "width": 1316,
-          "x": -16,
-          "y": -23,
-          "zOrder": 13,
+          "name": "octopus",
+          "persistentUuid": "77456102-090a-4e6f-bb1e-a838a1ac89be",
+          "width": 208,
+          "x": 489,
+          "y": 459,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 716,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "NewSprite3",
+          "opacity": 204,
+          "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
+          "width": 1272,
+          "x": 9,
+          "y": 6,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 94,
+          "keepRatio": true,
+          "layer": "",
+          "name": "crab",
+          "persistentUuid": "2c248cd6-4a0d-4eff-856d-86836a5c14e5",
+          "width": 98,
+          "x": 945,
+          "y": 554,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10449,66 +10499,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "oceanimg",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\oceanfloor.webp",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 480,
-                            "y": 0
-                          },
-                          {
-                            "x": 480,
-                            "y": 261
-                          },
-                          {
-                            "x": 0,
-                            "y": 261
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "blackScreen",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -10571,6 +10561,220 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "octopus",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 0,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "octopus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 150,
+                            "y": 1
+                          },
+                          {
+                            "x": 150,
+                            "y": 149
+                          },
+                          {
+                            "x": 2,
+                            "y": 149
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ocean.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 643,
+                            "y": 0
+                          },
+                          {
+                            "x": 643,
+                            "y": 360
+                          },
+                          {
+                            "x": 0,
+                            "y": 360
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "crab",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": " crab2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 8
+                          },
+                          {
+                            "x": 63,
+                            "y": 8
+                          },
+                          {
+                            "x": 63,
+                            "y": 56
+                          },
+                          {
+                            "x": 1,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10618,10 +10822,19 @@
             "objectName": "Worm_Bait"
           },
           {
-            "objectName": "oceanimg"
+            "objectName": "blackScreen"
           },
           {
-            "objectName": "blackScreen"
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "octopus"
+          },
+          {
+            "objectName": "crab"
           }
         ]
       },
@@ -10761,6 +10974,15 @@
                 "Health",
                 "GlobalVariable(playerHealth)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "octopus",
+                "\"calculateOctopusPath\""
               ]
             }
           ]
@@ -11333,6 +11555,18 @@
                 ">=",
                 "4"
               ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "octopus",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11368,6 +11602,19 @@
               "parameters": [
                 "\"collisionTimer\"",
                 "\"damage sound\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -11488,6 +11735,17 @@
                 ">=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "octopus",
+                "\"calculateOctopusPath\"",
+                ">=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -11510,6 +11768,27 @@
               "parameters": [
                 "Lake_Trout",
                 "\"calculatePath\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "octopus",
+                "Pathfinding",
+                "",
+                "TopDown_Character.X()",
+                "TopDown_Character.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "octopus",
+                "\"calculateOctopusPath\""
               ]
             }
           ]
@@ -11668,6 +11947,60 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
