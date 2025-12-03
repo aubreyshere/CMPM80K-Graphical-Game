@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 246,
+    "build": 249,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -569,30 +570,6 @@
         "userAdded": false
       },
       {
-        "file": "sewerbg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sewerbg.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image Nov 18, 2025, 03_21_21 PM.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image Nov 18, 2025, 03_21_21 PM.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT_Image_Nov_18__2025__03_24_54_PM-removebg-preview.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Cookie.png",
         "kind": "image",
         "metadata": "",
@@ -710,14 +687,6 @@
         }
       },
       {
-        "file": "assets/pixilart-sprite.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\pixilart-sprite.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/tile000.png",
         "kind": "image",
         "metadata": "",
@@ -787,22 +756,6 @@
         "userAdded": false
       },
       {
-        "file": "IMG_6308[1].PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6308[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6307[1]2.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6307[1]2.PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "IMG_6321[1]2.PNG",
         "kind": "image",
         "metadata": "",
@@ -819,58 +772,10 @@
         "userAdded": false
       },
       {
-        "file": "IMG_6315[1].PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6315[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "blob:file:///99b3cd46-227c-4284-adaa-c1cd27a35ac1",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"IMG_6314[1].PNG\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "IMG_6314[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "IMG_6316[1].PNG",
         "kind": "image",
         "metadata": "",
         "name": "IMG_6316[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6323[1].PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6323[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6314[1]2.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6314[1]2.PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6314[1]3.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6314[1]3.PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6326[1].PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6326[1].PNG",
         "smoothed": true,
         "userAdded": false
       },
@@ -883,26 +788,10 @@
         "userAdded": false
       },
       {
-        "file": "IMG_6327[1].WEBP",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6327[1].WEBP",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "IMG_6329[1].PNG",
         "kind": "image",
         "metadata": "",
         "name": "IMG_6329[1].PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_6330[1].PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_6330[1].PNG",
         "smoothed": true,
         "userAdded": false
       },
@@ -931,10 +820,224 @@
         "userAdded": false
       },
       {
-        "file": "ocean.jpg",
+        "file": "assets/Lake Trout_No Shadow.png",
         "kind": "image",
         "metadata": "",
-        "name": "ocean.jpg",
+        "name": "Lake Trout_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/d99a76be3d605740b050e452eae3ed0033014690b0a83a4871f06d380e161a6e_Lake Trout_No Shadow.png",
+          "name": "Lake Trout_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Lake Trout_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lake Trout_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/b370d1d88e4a43d2a6bbf85bd65f043a8082a9d941f3bf7abecf01221b8c034d_Lake Trout_Shadow.png",
+          "name": "Lake Trout_Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Worm Bait_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Worm Bait_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/5e6cfd6c764dc872b45c353a22bfc4b1761a5d60fbe186fee8f10e81f6f4b1d3_Worm Bait_No Shadow.png",
+          "name": "Worm Bait_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Worm Bait_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Worm Bait_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/ba0721585aa6f8d46cd08c7b5dfbeb7f277652339de14df893c69216dec2a072_Worm Bait_Shadow.png",
+          "name": "Worm Bait_Shadow.png"
+        }
+      },
+      {
+        "file": "IMG_6330[1]2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6330[1]2.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exit",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oceanfloor.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\oceanfloor.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6337[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6337[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6338[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6338[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6338[1]5.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6338[1]5.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6340[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6340[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6336[1]2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6336[1]2.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6337[1]4.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6337[1]4.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6336[1]3.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6336[1]3.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6337[1]5.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6337[1]5.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6339[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6339[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6341[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6341[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/metal-crunch-263638.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\metal-crunch-263638.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/transition1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\transition1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ocean-waves-112906.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\ocean-waves-112906.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
       }
@@ -945,7 +1048,18 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "playerHealth",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "playerEnergy",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 255,
@@ -971,7 +1085,7 @@
         "snap": false,
         "zoomFactor": 0.5653158055126397,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "fade"
       },
       "objectsGroups": [],
       "variables": [],
@@ -1176,22 +1290,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlackDecoratedButton",
-          "persistentUuid": "c5687475-e24c-48c6-9eaf-26520d9395cc",
-          "width": 0,
-          "x": 566,
-          "y": 327,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 60,
@@ -1375,6 +1473,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 786,
+          "keepRatio": true,
+          "layer": "fade",
+          "name": "NewSprite4",
+          "persistentUuid": "2a8e7fdb-7159-446a-b84c-382a2b252181",
+          "width": 1327,
+          "x": -18,
+          "y": -37,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1385,11 +1500,6 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
-            {
-              "name": "Energy",
-              "type": "number",
-              "value": 0
-            },
             {
               "name": "Speed",
               "type": "number",
@@ -2159,24 +2269,6 @@
           ]
         },
         {
-          "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-          "name": "BlackDecoratedButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Black Decorated Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 6,
-            "BottomPadding": 24,
-            "TopPadding": 20,
-            "HoveredFadeOutDuration": 0.25,
-            "LabelText": "Next scene"
-          }
-        },
-        {
           "assetStoreId": "36e485ce0d82bf08fb95416be533234ab70fcd431287029741ddebc4e81a70d1",
           "height": 64,
           "name": "Leaf_Spawner",
@@ -2558,6 +2650,72 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "fadeBlack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2596,9 +2754,6 @@
             "objectName": "Leaf_Spawner"
           },
           {
-            "objectName": "BlackDecoratedButton"
-          },
-          {
             "objectName": "NewSprite"
           },
           {
@@ -2618,6 +2773,9 @@
           },
           {
             "objectName": "Tut_0_text"
+          },
+          {
+            "objectName": "NewSprite4"
           }
         ]
       },
@@ -2666,7 +2824,7 @@
               "parameters": [
                 "WoodYellowBar",
                 "=",
-                "TopDown_Character.Energy",
+                "GlobalVariable(playerEnergy)",
                 ""
               ]
             },
@@ -2755,14 +2913,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BlackDecoratedButton"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -2783,6 +2933,17 @@
                 "Opacity",
                 "=",
                 "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Opacity",
+                "=",
+                "0"
               ]
             }
           ]
@@ -2824,11 +2985,10 @@
             },
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 ">",
                 "1"
               ]
@@ -2872,11 +3032,10 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 "-",
                 "2"
               ]
@@ -2928,11 +3087,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "TopDown_Character",
-                    "Energy",
+                    "playerEnergy",
                     "=",
                     "10"
                   ]
@@ -2993,11 +3151,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "TopDown_Character",
-                    "Energy",
+                    "playerEnergy",
                     "<",
                     "10"
                   ]
@@ -3006,11 +3163,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TopDown_Character",
-                    "Energy",
+                    "playerEnergy",
                     "+",
                     "1"
                   ]
@@ -3053,18 +3209,15 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "BlackDecoratedButton",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "ActivateBehavior"
@@ -3073,18 +3226,6 @@
                 "TopDown_Character",
                 "TopDownMovement",
                 "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "BlackDecoratedButton",
-                "",
-                "",
-                ""
               ]
             },
             {
@@ -3105,44 +3246,92 @@
             },
             {
               "type": {
-                "value": "Tween::TweenCameraPosition2"
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playerHealth",
+                "=",
+                "TopDown_Character.Health::Health()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Tween",
+                "\"fade\"",
+                "255",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "\"endCamera\"",
-                "566",
-                "327",
+                "\"fadeOut\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
                 "",
-                "\"linear\"",
-                "1"
+                "\"fadeOut\"",
+                ">=",
+                "2"
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                  },
-                  "parameters": [
-                    "BlackDecoratedButton",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Sewers\"",
-                    "no"
-                  ]
-                }
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Transition1\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"fadeOut\"",
+                ">=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0",
+                "=",
+                "50 * (2 - TimerElapsedTime(\"fadeOut\"))"
               ]
             }
           ]
@@ -3185,11 +3374,10 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 ">=",
                 "2"
               ]
@@ -3550,6 +3738,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -3629,9 +3871,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.14039857806035305,
+        "zoomFactor": 0.34375202416126494,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [
@@ -3656,9 +3898,9 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 2871,
-          "y": 475,
-          "zOrder": 100,
+          "x": 890,
+          "y": 161,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3812,14 +4054,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1455,
+          "height": 1483,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "347b6c63-af0e-4cce-b90b-bcaf8913c930",
           "width": 128,
-          "x": 1423,
-          "y": -741,
+          "x": 1414,
+          "y": -705,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -3835,25 +4077,9 @@
           "name": "water",
           "persistentUuid": "af8c6e9b-d85e-4c8d-a5df-25ac6c6b4a76",
           "width": 2993,
-          "x": 105,
-          "y": -1169,
-          "zOrder": -100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "walltopcorner",
-          "persistentUuid": "1f0aa22a-84f6-455b-adf0-c6f92921f7b4",
-          "width": 0,
-          "x": -1377,
-          "y": -530,
-          "zOrder": 40,
+          "x": 82,
+          "y": -1153,
+          "zOrder": -102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3867,8 +4093,8 @@
           "name": "walltopcorner",
           "persistentUuid": "68e9ccc2-6dc5-4f27-a0bc-fa351540055c",
           "width": 0,
-          "x": -639,
-          "y": -565,
+          "x": -698,
+          "y": -702,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -3878,32 +4104,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 393,
-          "keepRatio": true,
-          "layer": "",
-          "name": "walltopside",
-          "persistentUuid": "9d6b4d2b-35cb-423f-971a-aa8d00c4fdda",
-          "width": 128,
-          "x": -658,
-          "y": -1047,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 384,
+          "height": 425,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "c24f4bed-775a-4b73-a928-9f479f90c1a7",
           "width": 16,
-          "x": -610,
-          "y": -1043,
-          "zOrder": 42,
+          "x": -514,
+          "y": -729,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3946,15 +4156,16 @@
           "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 470,
+          "height": 873,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "706c30cf-a2f8-4442-a1ca-2323aa83a3aa",
           "width": 16,
-          "x": -955,
-          "y": -452,
-          "zOrder": 42,
+          "x": -951,
+          "y": -747,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3968,9 +4179,9 @@
           "layer": "",
           "name": "floor",
           "persistentUuid": "83ba25a3-04be-44ab-9ee6-27bee3f89b75",
-          "width": 474,
-          "x": -1593,
-          "y": -404,
+          "width": 777,
+          "x": -1270,
+          "y": -485,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3997,14 +4208,14 @@
           "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 473,
+          "height": 586,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "ae656450-e358-4a66-bdab-2d1a2fa97e82",
           "width": 128,
-          "x": -1009,
-          "y": -802,
+          "x": -975,
+          "y": -935,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -4085,11 +4296,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "4ef69038-3826-4ee5-8e9b-5a09fc7b2ead",
           "width": 16,
           "x": -1101,
           "y": 333,
-          "zOrder": 42,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4102,11 +4314,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "ba5bcdea-fd70-40f0-8a23-3e2c47ca8de5",
           "width": 16,
           "x": -1183,
           "y": 262,
-          "zOrder": 42,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4123,7 +4336,7 @@
           "width": 42,
           "x": -1292,
           "y": 290,
-          "zOrder": 45,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4136,11 +4349,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "498c86cf-8ebd-4901-9f36-94223e517056",
           "width": 1513,
           "x": 458,
           "y": 760,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4153,11 +4367,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "e791b3df-4b5d-4fc7-9fc9-636c50a081a0",
           "width": 918,
           "x": 115,
           "y": 366,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4166,15 +4381,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 46,
+          "height": 118,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "d33637b0-f6b5-4893-84c6-f931536ded35",
-          "width": 927,
-          "x": 128,
-          "y": -3,
-          "zOrder": 46,
+          "width": 973,
+          "x": 99,
+          "y": -105,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4183,15 +4399,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1504,
+          "height": 1467,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "d22e9aab-9008-4b22-a1e1-39433d55009e",
           "width": 50,
           "x": 1456,
-          "y": -737,
-          "zOrder": 47,
+          "y": -700,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4200,15 +4417,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 46,
+          "height": 120,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "808d0a26-5539-4e91-a23e-ca4e7f9c5210",
-          "width": 951,
+          "width": 1014,
           "x": 118,
-          "y": -378,
-          "zOrder": 46,
+          "y": -420,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4221,11 +4439,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "90e114f8-0a49-4d97-afab-e8a472c2286a",
           "width": 990,
           "x": 462,
           "y": -699,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4234,14 +4453,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 623,
+          "height": 690,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "932355f2-7d75-4e79-991f-80daae98b2bf",
           "width": 128,
-          "x": 1871,
-          "y": -732,
+          "x": 1864,
+          "y": -703,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -4258,7 +4477,7 @@
           "persistentUuid": "f2bd5fb2-0ef9-458d-b934-00152371372f",
           "width": 128,
           "x": 1873,
-          "y": 262,
+          "y": 334,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -4268,14 +4487,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 623,
+          "height": 661,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "572c8ace-0951-4769-877c-e497c7bdd6fd",
           "width": 128,
           "x": 2594,
-          "y": -729,
+          "y": -674,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -4285,14 +4504,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 623,
+          "height": 525,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "e69a09b7-095f-4a9e-8d73-d5d40955acee",
           "width": 128,
-          "x": 2607,
-          "y": 263,
+          "x": 2617,
+          "y": 358,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -4302,7 +4521,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 286,
+          "height": 329,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
@@ -4323,11 +4542,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "da058ce3-4830-4231-9898-7d4f6b1adbd8",
           "width": 50,
           "x": 55,
           "y": -1176,
-          "zOrder": 47,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4340,11 +4560,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "9d71a88b-3b12-41d2-af1c-c3cca27b0d51",
           "width": 50,
           "x": 61,
           "y": 343,
-          "zOrder": 47,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4353,15 +4574,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1381,
+          "height": 979,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "e1ddba55-b14a-42f2-9f11-a9511dd2574d",
           "width": 50,
-          "x": 3046,
-          "y": -1184,
-          "zOrder": 47,
+          "x": 3065,
+          "y": 675,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4374,11 +4596,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "d19c7aa4-0110-4433-be0f-c9df8fa45ef6",
           "width": 2974,
           "x": 107,
           "y": -1134,
-          "zOrder": 48,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4391,11 +4614,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "2f0bc23e-d314-42f3-8125-26852dba3ec1",
           "width": 2974,
           "x": 102,
           "y": 1651,
-          "zOrder": 48,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4408,11 +4632,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "c7994a74-6a66-44c3-985e-9faf2a31d399",
           "width": 1275,
           "x": 1903,
           "y": -705,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4425,11 +4650,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "aa84135d-262d-4f7a-90af-e929a2bfaeb1",
           "width": 436,
           "x": 1896,
           "y": -68,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4442,11 +4668,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "4adea8f1-e4db-46b2-91b5-2a1236f6e05d",
           "width": 62,
           "x": 2623,
           "y": -679,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4459,11 +4686,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "6fae4cb9-6b76-4747-9df9-4636efb86c16",
           "width": 62,
           "x": 2268,
           "y": -397,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4476,11 +4704,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "83b7fd26-4ac9-48aa-9e37-f92aa3f70470",
           "width": 62,
           "x": 1893,
           "y": -704,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4493,11 +4722,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "7112321f-87ff-4230-b4a9-452d6cc4fb75",
           "width": 744,
           "x": 1920,
           "y": 304,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4510,11 +4740,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "521269a7-8078-443b-a9c7-bc804038bc41",
           "width": 62,
           "x": 2633,
           "y": 304,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4527,11 +4758,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "ca65c28c-1933-433e-b1a2-21d26e377771",
           "width": 62,
           "x": 1906,
           "y": 304,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4540,14 +4772,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 458,
+          "height": 407,
           "keepRatio": true,
           "layer": "",
           "name": "walltopside",
           "persistentUuid": "159e9f79-9740-4273-b091-c75ca85953df",
           "width": 128,
           "x": 1921,
-          "y": 1234,
+          "y": 1285,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -4595,11 +4827,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "060af470-a948-4096-a685-3f20efcc41d6",
           "width": 1132,
           "x": 1549,
           "y": 1271,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4612,11 +4845,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "df9d199a-59ff-4a1b-9dfe-3564090db86a",
           "width": 327,
           "x": 500,
           "y": 1267,
-          "zOrder": 46,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4629,11 +4863,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "6b4d570c-9822-4121-a8fb-54f4845a39d7",
           "width": 50,
           "x": 1139,
           "y": 1238,
-          "zOrder": 47,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4646,11 +4881,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "639bf25f-496d-4f64-b11e-b48e559abe63",
           "width": 50,
           "x": 1954,
           "y": 1269,
-          "zOrder": 47,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4663,11 +4899,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
+          "opacity": 102,
           "persistentUuid": "f62d30d6-89d2-4896-bb23-55ddc687c679",
           "width": 50,
           "x": 461,
           "y": 1266,
-          "zOrder": 47,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4767,8 +5004,8 @@
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
           "width": 524,
-          "x": 3076,
-          "y": 161,
+          "x": 3051,
+          "y": 189,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -4777,33 +5014,236 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 64,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlackDecoratedButton",
-          "persistentUuid": "0ead6754-51dc-4c3b-8c81-cf9f6f7a1e06",
-          "width": 174,
-          "x": 3271,
-          "y": 418,
-          "zOrder": 110,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
-          "height": 966,
+          "height": 1363,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
-          "persistentUuid": "bd928205-bf05-487c-8a92-5f7b581ec7c8",
+          "opacity": 102,
+          "persistentUuid": "eac537ac-e38d-4c70-b869-5cb64b4b5223",
           "width": 50,
-          "x": 3056,
+          "x": 3074,
+          "y": -1130,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "dd6fd252-8fba-4484-83d2-bddf7807a4d3",
+          "width": 0,
+          "x": 1197,
+          "y": 255,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "e072992a-b666-47d7-8c90-b236a3605805",
+          "width": 0,
+          "x": 1248,
+          "y": -141,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 2991,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "fe7aa53c-8190-498b-b597-86b6bad38b2e",
+          "width": 128,
+          "x": 1537,
+          "y": -2638,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 361,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "f2102931-7616-4c61-aeaa-047cc0616253",
+          "width": 128,
+          "x": 600,
+          "y": 1101,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 1491,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "2d8877b8-1a6e-4fed-abfa-cde976cc0596",
+          "width": 128,
+          "x": 1140,
+          "y": 31,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 942,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "4ea84885-4b7a-4f34-ba3a-316c1411eb9b",
+          "width": 128,
+          "x": 503,
+          "y": -92,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 961,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "ca5082ae-f3dd-4f9e-9fd3-ec0ebddc7d96",
+          "width": 128,
+          "x": 521,
+          "y": -557,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 968,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "632c42f1-4e7c-4800-bb2a-7bf03bdeb92f",
+          "width": 128,
+          "x": 518,
+          "y": -847,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 1038,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "47595128-0409-4454-a8df-0aae4e3a0558",
+          "width": 128,
+          "x": 907,
+          "y": -1201,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 1140,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "204d47c3-c576-4580-8c22-2c67d0d7ae6a",
+          "width": 128,
+          "x": 2427,
+          "y": -1248,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 453,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "30bafbc3-d177-4ffa-acc1-30e1e4c33099",
+          "width": 128,
+          "x": 2039,
+          "y": -276,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 795,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "79462427-46eb-47ae-b89c-857ff91442a4",
+          "width": 128,
+          "x": 2232,
+          "y": -66,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 1160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "ba1e23b4-5765-4d79-a42c-670c488b6ae9",
+          "width": 128,
+          "x": 2049,
           "y": 709,
-          "zOrder": 47,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4812,15 +5252,478 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 581,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
-          "name": "exit",
-          "persistentUuid": "ffbc4fc8-b857-40bd-9955-756fbe62f65d",
-          "width": 542,
-          "x": 3075,
-          "y": 128,
-          "zOrder": 100,
+          "name": "floor",
+          "persistentUuid": "39d561ed-1a73-4958-ada9-d58ab48c5afd",
+          "width": 1030,
+          "x": 101,
+          "y": -423,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wallwater",
+          "persistentUuid": "82fef5b7-a5e9-4b8d-a21c-b4949d5d4114",
+          "width": 956,
+          "x": 103,
+          "y": -43,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wallwater",
+          "persistentUuid": "aa1bebc0-c169-4b4e-860d-bf02664eec16",
+          "width": 703,
+          "x": -1196,
+          "y": -366,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopcorner",
+          "persistentUuid": "cf9f5148-0263-4f99-a931-eb37fb78ea89",
+          "width": 0,
+          "x": -704,
+          "y": -826,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "void",
+          "persistentUuid": "44d3b34f-704d-43c9-8eb9-6274408f6cf6",
+          "width": 563,
+          "x": -1228,
+          "y": -733,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "e2cbfe97-6c50-4daa-b071-19a492ec7a71",
+          "width": 597,
+          "x": -1202,
+          "y": -244,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "0ad210d9-fbf3-460f-9fb6-323c24fd2119",
+          "width": 586,
+          "x": -1202,
+          "y": -613,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor",
+          "persistentUuid": "04d8dd5c-0593-4fd3-a073-7d9f726d5d35",
+          "width": 252,
+          "x": -684,
+          "y": -674,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 873,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "opacity": 102,
+          "persistentUuid": "41dc6c20-c2c0-4f31-9bd6-27bd20abd4fe",
+          "width": 16,
+          "x": -942,
+          "y": -1156,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 586,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "6daf49b7-e821-47ea-ba94-662f29f1939a",
+          "width": 128,
+          "x": -1052,
+          "y": -1059,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "0b05c5ac-28b5-4f07-b51a-951c673acee6",
+          "width": 0,
+          "x": -748,
+          "y": -495,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 873,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "opacity": 102,
+          "persistentUuid": "c15b2305-bfc9-434e-99eb-b577a0330d94",
+          "width": 16,
+          "x": -1871,
+          "y": -527,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wallwater",
+          "persistentUuid": "0c8a9589-0bf1-49da-ab6a-9465d0f00a37",
+          "width": 703,
+          "x": -2116,
+          "y": -146,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "6a356883-1958-421c-bb51-ae1c4eb43fbb",
+          "width": 597,
+          "x": -2122,
+          "y": -24,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "",
+          "name": "walltopside",
+          "persistentUuid": "d6aec460-2199-4d57-b2d4-05083718ef0e",
+          "width": 128,
+          "x": -1762,
+          "y": -466,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "72660ebc-163d-44cd-b7ea-5e65916e2458",
+          "width": 0,
+          "x": 1800,
+          "y": -19,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "dcc00720-0f24-464b-8fad-edb4aac6a0dd",
+          "width": 0,
+          "x": 1430,
+          "y": 1198,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "167629e3-76d4-4b89-9783-9e72f3acf559",
+          "width": 0,
+          "x": 279,
+          "y": 1276,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "eed8d0f5-ad73-4c52-8a10-52c1d14313c8",
+          "width": 0,
+          "x": 2855,
+          "y": 717,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "6d0e9908-564d-4d3f-b33d-68997f1d8c57",
+          "width": 0,
+          "x": 2280,
+          "y": 602,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "909ee87c-80db-40f9-930a-94c4441462df",
+          "width": 0,
+          "x": 2820,
+          "y": -552,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash1",
+          "persistentUuid": "0c5d149b-973d-4ca5-abb0-ce0c1aaa39b3",
+          "width": 0,
+          "x": 1559,
+          "y": -531,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "0cc63b6d-c5c2-445f-af6f-cff8adcd060b",
+          "width": 0,
+          "x": 2387,
+          "y": 152,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "0d63fd76-95a1-44e6-ad95-fd4394728fa6",
+          "width": 0,
+          "x": 2070,
+          "y": -263,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "26b72481-60e2-489a-ba25-ac1b717c03db",
+          "width": 0,
+          "x": 2797,
+          "y": -932,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "65f11c96-580b-400d-b23c-7ee596dbb059",
+          "width": 0,
+          "x": 1810,
+          "y": -687,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "d565195c-a5cd-4355-ae88-d6564ac5a6f5",
+          "width": 0,
+          "x": 2892,
+          "y": 1356,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trash2",
+          "persistentUuid": "f1d6122c-fc5a-4736-80d1-621221ef2b6b",
+          "width": 0,
+          "x": 2748,
+          "y": 652,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 785,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "blackScreen",
+          "persistentUuid": "3e484d8b-253e-4abe-895c-ad2ac0e8fd96",
+          "width": 1330,
+          "x": -22,
+          "y": -27,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4834,11 +5737,6 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
-            {
-              "name": "Energy",
-              "type": "number",
-              "value": 10
-            },
             {
               "name": "Speed",
               "type": "number",
@@ -5148,7 +6046,21 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "ObjectSpawner",
+              "type": "ObjectSpawner::ObjectSpawner",
+              "SpawnPeriod": 1,
+              "OffsetX": 0,
+              "OffsetY": 0,
+              "JustSpawnedAnObject": false,
+              "MaxQuantityReached": false,
+              "MaxQuantity": 0,
+              "SpawnerCapacity": 100,
+              "UnlimitedCapacity": true,
+              "RandomPosition": true
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -5614,9 +6526,9 @@
             {
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "maxSpeed": 100,
-              "cellHeight": 100,
-              "cellWidth": 100,
+              "cellHeight": 50,
+              "cellWidth": 50,
+              "maxSpeed": 125,
               "rotateObject": false,
               "acceleration": 400,
               "allowDiagonals": true,
@@ -5913,7 +6825,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "exit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "exit",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -5941,7 +6903,7 @@
           "assetStoreId": "",
           "height": 128,
           "name": "walltopside",
-          "texture": "IMG_6330[1].PNG",
+          "texture": "IMG_6330[1]2.PNG",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -6091,22 +7053,81 @@
           ]
         },
         {
-          "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-          "name": "BlackDecoratedButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Black Decorated Button",
+          "assetStoreId": "",
+          "height": 128,
+          "name": "wallwater",
+          "texture": "IMG_6310[1].PNG",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 6,
-            "BottomPadding": 24,
-            "TopPadding": 20,
-            "HoveredFadeOutDuration": 0.25,
-            "LabelText": "Next scene"
-          }
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "blackScreen",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6135,6 +7156,9 @@
               },
               {
                 "objectName": "water"
+              },
+              {
+                "objectName": "wallwater"
               }
             ]
           },
@@ -6186,7 +7210,7 @@
             "objectName": "trash2"
           },
           {
-            "objectName": "BlackDecoratedButton"
+            "objectName": "blackScreen"
           }
         ]
       },
@@ -6255,7 +7279,7 @@
               "parameters": [
                 "WoodYellowBar",
                 "=",
-                "TopDown_Character.Energy",
+                "GlobalVariable(playerEnergy)",
                 ""
               ]
             },
@@ -6300,6 +7324,17 @@
               },
               "parameters": [
                 "exit"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "water",
+                "ObjectSpawner",
+                "Leaf",
+                ""
               ]
             },
             {
@@ -6351,13 +7386,72 @@
                 "Gator",
                 "\"calculatePath\""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "blackScreen",
+                "Tween",
+                "\"fade\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "GlobalVariable(playerHealth)",
+                ""
+              ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "exit",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Transition2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playerHealth",
+                "=",
+                "TopDown_Character.Health::Health()"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -6396,11 +7490,10 @@
             },
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 ">",
                 "1"
               ]
@@ -6436,7 +7529,7 @@
                 "Tween",
                 "\"sprint\"",
                 "Speed",
-                "100",
+                "TopDown_Character.TopDownMovement::MaxSpeed()",
                 "\"linear\"",
                 "3",
                 ""
@@ -6444,11 +7537,10 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 "-",
                 "2"
               ]
@@ -6469,30 +7561,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "food",
-                "",
-                "",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -6507,13 +7575,84 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "+",
-                "1"
+                "trash1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\metal-crunch-263638.mp3",
+                "",
+                "100",
+                ""
               ]
             },
             {
@@ -6521,19 +7660,123 @@
                 "value": "Delete"
               },
               "parameters": [
-                "food",
+                "trash1",
                 ""
               ]
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "+",
-                "2"
+                "trash1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\retro-hurt-2-236675.mp3",
+                "",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "trash2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "trash2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\metal-crunch-263638.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "TopDownMovement",
+                "-",
+                "10"
               ]
             }
           ]
@@ -6946,14 +8189,6 @@
                 "100",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BlackDecoratedButton"
-              ]
             }
           ]
         },
@@ -7004,65 +8239,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Scene Progression"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "exit",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "BlackDecoratedButton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "BlackDecoratedButton",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Ocean\"",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -7077,7 +8253,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -7142,7 +8318,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -7312,6 +8488,10 @@
           "type": "Health::Health"
         },
         {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -7375,7 +8555,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3325387091250832,
+        "zoomFactor": 0.3673257545058888,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -7391,8 +8571,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 369,
-          "y": 261,
+          "x": 106,
+          "y": 205,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7482,15 +8662,712 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 729,
+          "height": 65,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "09da42cc-ac18-486b-847d-39338eab4f05",
-          "width": 1282,
-          "x": 1,
-          "y": -1,
-          "zOrder": -40,
+          "name": "Lake_Trout",
+          "persistentUuid": "5212b204-cda2-4526-8771-ada7f0d5755a",
+          "width": 91,
+          "x": 790,
+          "y": 366,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "1dc5e3cf-82e3-40b7-ac2b-fe2d9164f93a",
+          "width": 58,
+          "x": 564,
+          "y": 354,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1475,
+          "keepRatio": true,
+          "layer": "",
+          "name": "oceanimg",
+          "persistentUuid": "77483482-00a1-483f-9b83-b527361003e5",
+          "width": 2503,
+          "x": -651,
+          "y": -329,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "df1017ff-0d23-4f81-bf5e-e9a9fef18612",
+          "width": 58,
+          "x": 480,
+          "y": 354,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "b7b6bda9-1578-452a-8054-4efab89f8d79",
+          "width": 58,
+          "x": 563,
+          "y": 296,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "f951a311-972c-47f8-a056-d4027bdd476a",
+          "width": 58,
+          "x": 459,
+          "y": 305,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "13c110d5-c3c5-4802-8015-5afb95fa9d27",
+          "width": 58,
+          "x": 403,
+          "y": 314,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "ca4026b7-fef2-46da-a195-eb0baeb340a4",
+          "width": 58,
+          "x": 361,
+          "y": 377,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "183f8c1f-81ce-4768-89cd-837ddf902bde",
+          "width": 58,
+          "x": 436,
+          "y": 363,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "a9b7eddc-6c8e-431d-953c-7663f6c7e8e2",
+          "width": 58,
+          "x": 515,
+          "y": 349,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "848fa78e-2153-4f2d-853c-d1f0486873b7",
+          "width": 58,
+          "x": 355,
+          "y": 299,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "929a2963-5ab7-408e-91c7-a7220ca5e1da",
+          "width": 58,
+          "x": 497,
+          "y": 304,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "7d82c017-b029-4f66-8b9e-0112856bdc2d",
+          "width": 58,
+          "x": 433,
+          "y": 473,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "ca57cbb2-b170-4b85-88a0-9f765585d99d",
+          "width": 35,
+          "x": 633,
+          "y": 186,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "6fe3c720-d07e-476c-bb2a-35c6716692b2",
+          "width": 35,
+          "x": 704,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "68b810d7-2688-4a2f-98e4-52d84d4ac4f9",
+          "width": 35,
+          "x": 783,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "2ed31e10-0176-412b-a5b3-08ab78763eb9",
+          "width": 35,
+          "x": 873,
+          "y": 186,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "8377044a-e782-49af-85d4-2ddeecb97e77",
+          "width": 35,
+          "x": 941,
+          "y": 198,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "9eabe692-02a1-4733-8b98-833d6ba2bdce",
+          "width": 35,
+          "x": 935,
+          "y": 262,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "34c06685-4f20-4a19-97c2-8ec0775a3683",
+          "width": 35,
+          "x": 882,
+          "y": 249,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "da5b0cf3-6f10-47df-a380-13e0b2ce3d93",
+          "width": 35,
+          "x": 777,
+          "y": 249,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "180050b8-6f4a-432c-9332-e10cf6043156",
+          "width": 35,
+          "x": 708,
+          "y": 245,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "03b971e1-b406-4461-a95d-34722dc45065",
+          "width": 35,
+          "x": 629,
+          "y": 251,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "4647aa3f-9de4-4c0a-86d1-df67ee98606b",
+          "width": 35,
+          "x": 672,
+          "y": 201,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "283aace4-7e78-431a-a975-77ecd809f230",
+          "width": 35,
+          "x": 678,
+          "y": 262,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "5796da75-0539-42f7-a79c-9ef435cc19a8",
+          "width": 35,
+          "x": 743,
+          "y": 187,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "6406c7f4-3c8c-4019-9705-3b46a254b00c",
+          "width": 35,
+          "x": 743,
+          "y": 266,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "bae3f99f-50b2-45d8-a88e-733368a50fec",
+          "width": 35,
+          "x": 841,
+          "y": 245,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "b22d920c-da97-4e3d-a960-9bd52284301a",
+          "width": 35,
+          "x": 837,
+          "y": 173,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "0996bbac-d347-4df1-8fee-5c74db6720b4",
+          "width": 35,
+          "x": 906,
+          "y": 183,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leaf",
+          "persistentUuid": "1313b065-3b44-4202-aa97-477baa51cae6",
+          "width": 35,
+          "x": 903,
+          "y": 259,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "32119074-e19c-4d60-ba7f-016e27448c8d",
+          "width": 58,
+          "x": 670,
+          "y": 445,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "241670f1-a8cc-4dc7-93f6-99634f475bff",
+          "width": 58,
+          "x": 681,
+          "y": 500,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "10c0250c-1814-41a0-a649-b8aafb49b66f",
+          "width": 58,
+          "x": 736,
+          "y": 479,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "23c09eaf-e18c-4e23-b951-5655738c323c",
+          "width": 58,
+          "x": 725,
+          "y": 419,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "8643dc7e-b831-45f3-be9c-f604392c6507",
+          "width": 58,
+          "x": 790,
+          "y": 436,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "d2867293-d753-410d-8871-9532df8c023b",
+          "width": 58,
+          "x": 791,
+          "y": 478,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "3529572b-d24d-4ca8-bd80-ebeea049da88",
+          "width": 58,
+          "x": 850,
+          "y": 500,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "70b28b0f-bebe-4265-8e31-54460d83ab7e",
+          "width": 58,
+          "x": 842,
+          "y": 447,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "207898d2-af8f-4833-a349-e712769aab37",
+          "width": 58,
+          "x": 899,
+          "y": 461,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Worm_Bait",
+          "persistentUuid": "1f8695ba-dc2b-4cc6-8eb2-13e5626885bc",
+          "width": 58,
+          "x": 902,
+          "y": 504,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackScreen",
+          "persistentUuid": "297b9546-a10e-4868-8b29-0514ac62f13c",
+          "width": 1316,
+          "x": -16,
+          "y": -23,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7505,9 +9382,14 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "Energy",
+              "name": "MaxEnergy",
               "type": "number",
               "value": 10
+            },
+            {
+              "name": "Stage",
+              "type": "number",
+              "value": 0
             },
             {
               "name": "Speed",
@@ -7629,11 +9511,11 @@
           ],
           "animations": [
             {
-              "name": "right",
+              "name": "stage1",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -7677,17 +9559,16 @@
               ]
             },
             {
-              "name": "left",
+              "name": "stage2",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "CMPM 80K - Goldfish5.png",
+                      "image": "IMG_6337[1]5.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7703,20 +9584,76 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 52
+                            "x": 19.5,
+                            "y": 51
                           },
                           {
-                            "x": 0,
-                            "y": 15
+                            "x": 109,
+                            "y": 42.5
                           },
                           {
-                            "x": 64,
-                            "y": 15
+                            "x": 150,
+                            "y": 85
                           },
                           {
-                            "x": 64,
-                            "y": 52
+                            "x": 116,
+                            "y": 123
+                          },
+                          {
+                            "x": 17.5,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "stage3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6336[1]2.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31.5,
+                            "y": 217
+                          },
+                          {
+                            "x": 10,
+                            "y": 101
+                          },
+                          {
+                            "x": 222,
+                            "y": 49
+                          },
+                          {
+                            "x": 320,
+                            "y": 175
+                          },
+                          {
+                            "x": 229,
+                            "y": 289
                           }
                         ]
                       ]
@@ -8274,6 +10211,250 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ef6d385dd28fed6522f2a9bbd0d4bdc6259a543797f22713eb235cefb455b47c",
+          "name": "Lake_Trout",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lake Trout_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lake Trout_Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 3
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 3,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "2d0df3f8eb217b3524541918bc19e8a87ead07d0d2ec022fc12ee34eb95e496d",
+          "name": "Worm_Bait",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Worm Bait_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 29
+                          },
+                          {
+                            "x": 6,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Worm Bait_Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 29
+                          },
+                          {
+                            "x": 6,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "oceanimg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -8285,7 +10466,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ocean.jpg",
+                      "image": "assets\\oceanfloor.webp",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8305,16 +10486,82 @@
                             "y": 0
                           },
                           {
-                            "x": 643,
+                            "x": 480,
                             "y": 0
                           },
                           {
-                            "x": 643,
-                            "y": 360
+                            "x": 480,
+                            "y": 261
                           },
                           {
                             "x": 0,
-                            "y": 360
+                            "y": 261
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "blackScreen",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -8363,6 +10610,18 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Lake_Trout"
+          },
+          {
+            "objectName": "Worm_Bait"
+          },
+          {
+            "objectName": "oceanimg"
+          },
+          {
+            "objectName": "blackScreen"
           }
         ]
       },
@@ -8411,7 +10670,18 @@
               "parameters": [
                 "WoodYellowBar",
                 "=",
-                "TopDown_Character.Energy",
+                "GlobalVariable(playerEnergy)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "WoodYellowBar",
+                "=",
+                "TopDown_Character.MaxEnergy",
                 ""
               ]
             },
@@ -8446,8 +10716,318 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
+                "Lake_Trout",
+                "\"calculatePath\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
                 "TopDown_Character",
                 "\"sprintCounter\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hunger\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "blackScreen",
+                "Tween",
+                "\"fade\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "GlobalVariable(playerHealth)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Fish Stages"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Fish Stages"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "MaxEnergy",
+                "=",
+                "30"
               ]
             }
           ]
@@ -8518,7 +11098,7 @@
                 "Tween",
                 "\"sprint\"",
                 "Speed",
-                "100",
+                "TopDown_Character.TopDownMovement::MaxSpeed()",
                 "\"linear\"",
                 "3",
                 ""
@@ -8526,11 +11106,10 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 "-",
                 "2"
               ]
@@ -8548,7 +11127,7 @@
                 "",
                 "\"hunger\"",
                 ">=",
-                "15"
+                "7"
               ]
             }
           ],
@@ -8561,45 +11140,74 @@
                 "",
                 "\"hunger\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "-",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    ">=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    "-",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Fish movement"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
+                "TopDownMovement",
                 "<",
-                "10"
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage1\""
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -8609,39 +11217,45 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "TopDownMovementBehavior::XVelocity"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "=",
-                "10"
+                "TopDownMovement",
+                ">",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
                 "TopDown_Character",
-                "Stage",
-                "+",
-                "1"
+                "Flippable",
+                "no"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage2\""
+                "",
+                "\"hunger\"",
+                ">=",
+                "7"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "ResetTimer"
@@ -8650,16 +11264,110 @@
                 "",
                 "\"hunger\""
               ]
-            },
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    ">=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "playerEnergy",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Health system"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "TopDown_Character",
-                "Energy",
-                "=",
-                "50"
+                "Lake_Trout",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"damage sound\"",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\retro-hurt-2-236675.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "\"collisionTimer\"",
+                "\"damage sound\""
               ]
             }
           ]
@@ -8669,48 +11377,59 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "=",
-                "50"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Stage",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 "=",
                 "0"
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "CompareTimer"
               },
               "parameters": [
                 "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage3\""
+                "\"damage sound\"",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "\"collisionTimer\"",
+                "\"damage sound\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\retro-hurt-2-236675.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -8720,32 +11439,53 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"LShift\""
+                "\"Game over\"",
+                ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Predators"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "CompareObjectTimer"
               },
               "parameters": [
-                "TopDown_Character",
-                "\"sprintCounter\"",
+                "Lake_Trout",
+                "\"calculatePath\"",
                 ">=",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                ">",
                 "1"
               ]
             }
@@ -8753,13 +11493,14 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "TopDown_Character",
-                "Speed",
-                "=",
-                "1000"
+                "Lake_Trout",
+                "Pathfinding",
+                "",
+                "TopDown_Character.X()",
+                "TopDown_Character.Y()"
               ]
             },
             {
@@ -8767,37 +11508,23 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
-                "TopDown_Character",
-                "\"sprintCounter\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Tween",
-                "\"sprint\"",
-                "Speed",
-                "100",
-                "\"linear\"",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Energy",
-                "-",
-                "2"
+                "Lake_Trout",
+                "\"calculatePath\""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Prey"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8827,24 +11554,74 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TopDown_Character",
-                "Energy",
+                "playerEnergy",
                 "+",
                 "1"
               ]
             },
             {
               "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
               },
               "parameters": [
                 "TopDown_Character",
-                "Scale",
-                "=",
-                "2"
+                "Worm_Bait",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Worm_Bait",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -8859,114 +11636,32 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Fish movement"
+          "comment": "Scene progression"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Stage",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Right\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"right\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
                 "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Right\"",
                 ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"right\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "Joystick",
-                "\"Left\"",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"left\""
               ]
             }
           ]
@@ -9095,6 +11790,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
@@ -9506,6 +12205,581 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Transition1",
+      "name": "Transition1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 757,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackScreen",
+          "persistentUuid": "b8f5e4b5-9a42-4810-a3a7-16f084112c7c",
+          "width": 1310,
+          "x": -15,
+          "y": -9,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "blackScreen",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "blackScreen"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"changeScene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\transition1.mp3",
+                "0",
+                "no",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"changeScene\"",
+                ">=",
+                "11"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Sewers\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Transition2",
+      "name": "Transition2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 750,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackScreen",
+          "persistentUuid": "15762ad0-516e-432b-9477-ae6f087a7acd",
+          "width": 1306,
+          "x": -11,
+          "y": -14,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "blackScreen",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "blackScreen"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"changeScene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\ocean-waves-112906.mp3",
+                "0",
+                "no",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0",
+                "=",
+                "12 * (8 - TimerElapsedTime(\"changeScene\"))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"changeScene\"",
+                ">=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Ocean\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -30885,36 +34159,6 @@
                       "useLegacyBottomAndRightAnchors": false
                     }
                   ]
-                },
-                {
-                  "assetStoreId": "",
-                  "name": "BitmapLabel",
-                  "type": "BitmapText::BitmapTextObject",
-                  "variables": [],
-                  "effects": [],
-                  "behaviors": [
-                    {
-                      "name": "Anchor",
-                      "type": "AnchorBehavior::AnchorBehavior",
-                      "bottomEdgeAnchor": 4,
-                      "topEdgeAnchor": 4,
-                      "leftEdgeAnchor": 1,
-                      "relativeToOriginalWindowSize": true,
-                      "rightEdgeAnchor": 2,
-                      "useLegacyBottomAndRightAnchors": false
-                    }
-                  ],
-                  "content": {
-                    "text": "Text",
-                    "opacity": 255,
-                    "scale": 1,
-                    "fontSize": 20,
-                    "tint": "255;255;255",
-                    "bitmapFontResourceName": "",
-                    "textureAtlasResourceName": "",
-                    "align": "center",
-                    "verticalTextAlignment": "center"
-                  }
                 }
               ],
               "objectsFolderStructure": {
@@ -30931,9 +34175,6 @@
                   },
                   {
                     "objectName": "Pressed"
-                  },
-                  {
-                    "objectName": "BitmapLabel"
                   }
                 ]
               },
@@ -30949,17 +34190,6 @@
                     },
                     {
                       "name": "Pressed"
-                    }
-                  ]
-                },
-                {
-                  "name": "Labels",
-                  "objects": [
-                    {
-                      "name": "Label"
-                    },
-                    {
-                      "name": "BitmapLabel"
                     }
                   ]
                 }
