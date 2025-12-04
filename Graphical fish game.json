@@ -7929,34 +7929,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"fadeOut\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Transition2\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -8000,6 +7972,16 @@
                 "playerHealth",
                 "=",
                 "TopDown_Character.Health::Health()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Ocean\"",
+                "no"
               ]
             }
           ]
@@ -9052,7 +9034,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23089183385225698,
+        "zoomFactor": 0.2160739732387623,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -9830,8 +9812,8 @@
           "opacity": 204,
           "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
           "width": 2891,
-          "x": -803,
-          "y": -74,
+          "x": -799,
+          "y": -56,
           "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
@@ -9959,7 +9941,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 955,
+          "height": 822,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
@@ -9967,7 +9949,7 @@
           "persistentUuid": "de1879bc-2097-4f47-9d81-d3c1fa8cb27c",
           "width": 1733,
           "x": -207,
-          "y": -50,
+          "y": 83,
           "zOrder": -22,
           "numberProperties": [],
           "stringProperties": [],
@@ -11975,6 +11957,22 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                ">=",
+                "TopDown_Character.MaxEnergy"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -12968,25 +12966,7 @@
                 "",
                 "\"fadeOut\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"fadeOut\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "Scene"
