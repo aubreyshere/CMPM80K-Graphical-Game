@@ -12826,6 +12826,29 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "blackScreen",
+                "Tween",
+                "\"fade\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"fadeOut\""
+              ]
             }
           ]
         },
@@ -12933,40 +12956,17 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "TopDown_Character",
-                "Stage",
-                "=",
-                "3"
+                "",
+                "\"fadeOut\"",
+                ">=",
+                "1"
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "blackScreen",
-                "Tween",
-                "\"fade\"",
-                "255",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"fadeOut\""
-              ]
-            },
             {
               "type": {
                 "value": "Scene"
