@@ -1279,6 +1279,14 @@
         "name": "IMG_6347[1]",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 8.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8867,7 +8875,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11894533708001492,
+        "zoomFactor": 0.49508400737490604,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -8981,8 +8989,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "1dc5e3cf-82e3-40b7-ac2b-fe2d9164f93a",
           "width": 58,
-          "x": 564,
-          "y": 354,
+          "x": 1139,
+          "y": 335,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9015,8 +9023,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "b7b6bda9-1578-452a-8054-4efab89f8d79",
           "width": 58,
-          "x": 563,
-          "y": 296,
+          "x": 1185,
+          "y": 124,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9032,8 +9040,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "f951a311-972c-47f8-a056-d4027bdd476a",
           "width": 58,
-          "x": 459,
-          "y": 305,
+          "x": 838,
+          "y": 151,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9049,8 +9057,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "13c110d5-c3c5-4802-8015-5afb95fa9d27",
           "width": 58,
-          "x": 403,
-          "y": 314,
+          "x": 281,
+          "y": 205,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9066,8 +9074,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "ca4026b7-fef2-46da-a195-eb0baeb340a4",
           "width": 58,
-          "x": 361,
-          "y": 377,
+          "x": 266,
+          "y": 539,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9083,8 +9091,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "183f8c1f-81ce-4768-89cd-837ddf902bde",
           "width": 58,
-          "x": 436,
-          "y": 363,
+          "x": 211,
+          "y": 384,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9100,8 +9108,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "a9b7eddc-6c8e-431d-953c-7663f6c7e8e2",
           "width": 58,
-          "x": 515,
-          "y": 349,
+          "x": 814,
+          "y": 739,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9117,8 +9125,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "848fa78e-2153-4f2d-853c-d1f0486873b7",
           "width": 58,
-          "x": 355,
-          "y": 299,
+          "x": 115,
+          "y": 282,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9134,8 +9142,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "929a2963-5ab7-408e-91c7-a7220ca5e1da",
           "width": 58,
-          "x": 497,
-          "y": 304,
+          "x": 1115,
+          "y": 177,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9168,8 +9176,8 @@
           "name": "Leaf",
           "persistentUuid": "ca57cbb2-b170-4b85-88a0-9f765585d99d",
           "width": 35,
-          "x": 633,
-          "y": 186,
+          "x": 91,
+          "y": 539,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9185,8 +9193,8 @@
           "name": "Leaf",
           "persistentUuid": "6fe3c720-d07e-476c-bb2a-35c6716692b2",
           "width": 35,
-          "x": 704,
-          "y": 187,
+          "x": 1095,
+          "y": 426,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9202,8 +9210,8 @@
           "name": "Leaf",
           "persistentUuid": "68b810d7-2688-4a2f-98e4-52d84d4ac4f9",
           "width": 35,
-          "x": 783,
-          "y": 187,
+          "x": 379,
+          "y": 787,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9219,8 +9227,8 @@
           "name": "Leaf",
           "persistentUuid": "2ed31e10-0176-412b-a5b3-08ab78763eb9",
           "width": 35,
-          "x": 873,
-          "y": 186,
+          "x": 1157,
+          "y": 695,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9236,8 +9244,8 @@
           "name": "Leaf",
           "persistentUuid": "8377044a-e782-49af-85d4-2ddeecb97e77",
           "width": 35,
-          "x": 941,
-          "y": 198,
+          "x": 597,
+          "y": 820,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9270,8 +9278,8 @@
           "name": "Leaf",
           "persistentUuid": "34c06685-4f20-4a19-97c2-8ec0775a3683",
           "width": 35,
-          "x": 882,
-          "y": 249,
+          "x": 1240,
+          "y": 558,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9287,8 +9295,8 @@
           "name": "Leaf",
           "persistentUuid": "da5b0cf3-6f10-47df-a380-13e0b2ce3d93",
           "width": 35,
-          "x": 777,
-          "y": 249,
+          "x": 947,
+          "y": 415,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9304,8 +9312,8 @@
           "name": "Leaf",
           "persistentUuid": "180050b8-6f4a-432c-9332-e10cf6043156",
           "width": 35,
-          "x": 708,
-          "y": 245,
+          "x": 389,
+          "y": 646,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9321,8 +9329,8 @@
           "name": "Leaf",
           "persistentUuid": "03b971e1-b406-4461-a95d-34722dc45065",
           "width": 35,
-          "x": 629,
-          "y": 251,
+          "x": 262,
+          "y": 305,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9338,8 +9346,8 @@
           "name": "Leaf",
           "persistentUuid": "4647aa3f-9de4-4c0a-86d1-df67ee98606b",
           "width": 35,
-          "x": 672,
-          "y": 201,
+          "x": 49,
+          "y": 418,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9355,8 +9363,8 @@
           "name": "Leaf",
           "persistentUuid": "283aace4-7e78-431a-a975-77ecd809f230",
           "width": 35,
-          "x": 678,
-          "y": 262,
+          "x": 488,
+          "y": 162,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9372,8 +9380,8 @@
           "name": "Leaf",
           "persistentUuid": "5796da75-0539-42f7-a79c-9ef435cc19a8",
           "width": 35,
-          "x": 743,
-          "y": 187,
+          "x": 591,
+          "y": 720,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9389,8 +9397,8 @@
           "name": "Leaf",
           "persistentUuid": "6406c7f4-3c8c-4019-9705-3b46a254b00c",
           "width": 35,
-          "x": 743,
-          "y": 266,
+          "x": 603,
+          "y": 385,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9406,8 +9414,8 @@
           "name": "Leaf",
           "persistentUuid": "bae3f99f-50b2-45d8-a88e-733368a50fec",
           "width": 35,
-          "x": 841,
-          "y": 245,
+          "x": 1029,
+          "y": 369,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9423,8 +9431,8 @@
           "name": "Leaf",
           "persistentUuid": "b22d920c-da97-4e3d-a960-9bd52284301a",
           "width": 35,
-          "x": 837,
-          "y": 173,
+          "x": 1328,
+          "y": 270,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9440,8 +9448,8 @@
           "name": "Leaf",
           "persistentUuid": "0996bbac-d347-4df1-8fee-5c74db6720b4",
           "width": 35,
-          "x": 906,
-          "y": 183,
+          "x": 140,
+          "y": 771,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9457,8 +9465,8 @@
           "name": "Leaf",
           "persistentUuid": "1313b065-3b44-4202-aa97-477baa51cae6",
           "width": 35,
-          "x": 903,
-          "y": 259,
+          "x": 1403,
+          "y": 294,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9474,8 +9482,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "32119074-e19c-4d60-ba7f-016e27448c8d",
           "width": 58,
-          "x": 670,
-          "y": 445,
+          "x": 377,
+          "y": 385,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9491,8 +9499,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "241670f1-a8cc-4dc7-93f6-99634f475bff",
           "width": 58,
-          "x": 681,
-          "y": 500,
+          "x": 260,
+          "y": 722,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9508,8 +9516,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "10c0250c-1814-41a0-a649-b8aafb49b66f",
           "width": 58,
-          "x": 736,
-          "y": 479,
+          "x": 612,
+          "y": 215,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9542,8 +9550,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "8643dc7e-b831-45f3-be9c-f604392c6507",
           "width": 58,
-          "x": 790,
-          "y": 436,
+          "x": 92,
+          "y": 658,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9559,8 +9567,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "d2867293-d753-410d-8871-9532df8c023b",
           "width": 58,
-          "x": 791,
-          "y": 478,
+          "x": 741,
+          "y": 602,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9576,8 +9584,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "3529572b-d24d-4ca8-bd80-ebeea049da88",
           "width": 58,
-          "x": 850,
-          "y": 500,
+          "x": 993,
+          "y": 806,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9610,8 +9618,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "207898d2-af8f-4833-a349-e712769aab37",
           "width": 58,
-          "x": 899,
-          "y": 461,
+          "x": 1287,
+          "y": 686,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9627,8 +9635,8 @@
           "name": "Worm_Bait",
           "persistentUuid": "1f8695ba-dc2b-4cc6-8eb2-13e5626885bc",
           "width": 58,
-          "x": 902,
-          "y": 504,
+          "x": 807,
+          "y": 528,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9647,38 +9655,23 @@
           "width": 1723,
           "x": -205,
           "y": -74,
-          "zOrder": 20,
+          "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "crab",
-          "persistentUuid": "9217117a-8972-407c-bacb-bf746bdb1ea2",
-          "width": 0,
-          "x": 936,
-          "y": 557,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
           "keepRatio": true,
           "layer": "",
           "name": "octopus",
           "persistentUuid": "f37d7d39-0350-4d8a-88ce-16092d6beea5",
-          "width": 0,
+          "width": 195,
           "x": 491,
-          "y": 481,
+          "y": 437,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -9788,16 +9781,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 871,
+          "height": 955,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "opacity": 0,
           "persistentUuid": "de1879bc-2097-4f47-9d81-d3c1fa8cb27c",
           "width": 1733,
-          "x": -202,
-          "y": 31,
-          "zOrder": 28,
+          "x": -207,
+          "y": -50,
+          "zOrder": -22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9812,9 +9805,26 @@
           "name": "blackScreen",
           "persistentUuid": "20ab64a4-b686-4a62-96e5-e12b9bdc34f3",
           "width": 3306,
-          "x": -901,
-          "y": -1229,
+          "x": -870,
+          "y": 1406,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 81,
+          "keepRatio": true,
+          "layer": "",
+          "name": "crab",
+          "persistentUuid": "7f6b4d4e-9550-48c2-9a7d-210c966ff25c",
+          "width": 92,
+          "x": 463,
+          "y": 687,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11148,66 +11158,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "crab",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": " crab2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 8
-                          },
-                          {
-                            "x": 63,
-                            "y": 8
-                          },
-                          {
-                            "x": 63,
-                            "y": 56
-                          },
-                          {
-                            "x": 1,
-                            "y": 56
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "SewerPipe",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -11326,6 +11276,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "crab",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled_Artwork 8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 8
+                          },
+                          {
+                            "x": 63,
+                            "y": 8
+                          },
+                          {
+                            "x": 63,
+                            "y": 56
+                          },
+                          {
+                            "x": 1,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11379,13 +11389,13 @@
             "objectName": "octopus"
           },
           {
-            "objectName": "crab"
-          },
-          {
             "objectName": "SewerPipe"
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "crab"
           }
         ]
       },
@@ -12498,6 +12508,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crab",
+                "Worm_Bait",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -12529,6 +12551,15 @@
                 "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Worm_Bait",
                 ""
               ]
             }
