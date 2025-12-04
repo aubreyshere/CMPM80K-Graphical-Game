@@ -1247,6 +1247,14 @@
         "name": "assets\\skybackground.webp",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6347[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6347[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8835,7 +8843,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23867758270258446,
+        "zoomFactor": 0.32169117647059725,
         "windowMask": false,
         "selectedLayer": "Layer"
       },
@@ -9625,7 +9633,7 @@
           "height": 975,
           "keepRatio": true,
           "layer": "Layer",
-          "name": "NewSprite3",
+          "name": "ocean",
           "opacity": 204,
           "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
           "width": 1723,
@@ -9743,12 +9751,28 @@
           "height": 1733,
           "keepRatio": true,
           "layer": "Layer",
-          "name": "skybackground",
+          "name": "sky",
           "persistentUuid": "dec97732-57bf-4583-882f-6a61748078f8",
           "width": 1733,
           "x": -213,
           "y": -1775,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "SewerPipe",
+          "persistentUuid": "785db4bb-32cf-4152-bf2d-f601822eb859",
+          "width": 0,
+          "x": 249,
+          "y": -1069,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10890,7 +10914,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "skybackground",
+          "name": "sky",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11033,7 +11057,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite3",
+          "name": "ocean",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11160,6 +11184,66 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SewerPipe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6347[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 53
+                          },
+                          {
+                            "x": 318,
+                            "y": 53
+                          },
+                          {
+                            "x": 318,
+                            "y": 296
+                          },
+                          {
+                            "x": 0,
+                            "y": 296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11207,10 +11291,10 @@
             "objectName": "blackScreen"
           },
           {
-            "objectName": "NewSprite3"
+            "objectName": "ocean"
           },
           {
-            "objectName": "skybackground"
+            "objectName": "sky"
           },
           {
             "objectName": "octopus"
@@ -11220,6 +11304,9 @@
           },
           {
             "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "SewerPipe"
           }
         ]
       },
@@ -11282,18 +11369,6 @@
                 "TopDownMovement",
                 "=",
                 "TopDown_Character.Variable(Speed)"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "TopDown_Character",
-                "",
-                "",
-                ""
               ]
             }
           ]
@@ -11452,16 +11527,6 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "playerEnergy",
-                ">=",
-                "TopDown_Character.MaxEnergy"
-              ]
-            },
-            {
-              "type": {
                 "value": "NumberObjectVariable"
               },
               "parameters": [
@@ -11470,69 +11535,6 @@
                 "=",
                 "1"
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Stage",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage3\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "MaxEnergy",
-                "=",
-                "30"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Fish Stages"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Stage",
-                "=",
-                "0"
-              ]
             },
             {
               "type": {
@@ -11542,66 +11544,6 @@
                 "playerEnergy",
                 ">=",
                 "TopDown_Character.MaxEnergy"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Stage",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Animation",
-                "=",
-                "\"stage2\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "MaxEnergy",
-                "=",
-                "20"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "playerEnergy",
-                ">=",
-                "TopDown_Character.MaxEnergy"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "playerEnergy",
-                ">",
-                "1"
               ]
             }
           ],
@@ -11858,7 +11800,7 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "NewSprite3",
+                "ocean",
                 "",
                 "",
                 ""
@@ -11899,7 +11841,7 @@
               },
               "parameters": [
                 "TopDown_Character",
-                "NewSprite3",
+                "ocean",
                 "",
                 "",
                 "no"
