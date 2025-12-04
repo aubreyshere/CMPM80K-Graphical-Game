@@ -1295,6 +1295,22 @@
         "name": "IMG_6348[1].PNG",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6349[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6349[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_6350[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6350[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4253,7 +4269,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15508574551594542,
+        "zoomFactor": 0.14513286445534648,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4956,7 +4972,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 979,
+          "height": 1079,
           "keepRatio": true,
           "layer": "",
           "name": "barrier",
@@ -4964,7 +4980,7 @@
           "persistentUuid": "e1ddba55-b14a-42f2-9f11-a9511dd2574d",
           "width": 50,
           "x": 3065,
-          "y": 675,
+          "y": 575,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -5346,14 +5362,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1061,
+          "height": 1203,
           "keepRatio": true,
           "layer": "",
           "name": "wall",
           "persistentUuid": "c3b1a8b3-6d61-4887-8f95-308bc75eec9d",
           "width": 475,
           "x": 3090,
-          "y": 675,
+          "y": 533,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -5380,14 +5396,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 556,
+          "height": 596,
           "keepRatio": true,
           "layer": "",
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
-          "width": 524,
-          "x": 3277,
-          "y": 168,
+          "width": 568,
+          "x": 3256,
+          "y": -56,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -6106,6 +6122,42 @@
           "x": -5,
           "y": -34,
           "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 784,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "opacity": 102,
+          "persistentUuid": "be183971-3fc5-4a3a-9a86-9be11ba4bd1d",
+          "width": 50,
+          "x": 3430,
+          "y": 171,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 784,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrier",
+          "opacity": 102,
+          "persistentUuid": "54082d77-31f1-480e-8931-556888aaab2b",
+          "width": 50,
+          "x": 3436,
+          "y": -187,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7199,7 +7251,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "exit",
           "type": "Sprite",
@@ -7219,7 +7271,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "exit",
+                      "image": "IMG_6350[1].PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7235,20 +7287,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 21.5,
+                            "y": 255.5
+                          },
+                          {
+                            "x": 81.5,
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 500,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 500,
+                            "y": 500
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 257.5,
+                            "y": 500
                           }
                         ]
                       ]
