@@ -13804,6 +13804,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Game_Over2",
+          "persistentUuid": "afa5d416-453b-4ff4-9569-9fa5c2894148",
+          "width": 1131,
+          "x": 21,
+          "y": 553,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13878,6 +13895,49 @@
             "HoveredFadeOutDuration": 0,
             "LabelText": "Play again?"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Game_Over2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits:\nAudio: \"Game win\", \"steps on wooden stairs\", \"toilet-flush\", \"cat meow\", \"Chase 8-bit\", and \"creature in the sewers\" by freesound_community. \"Low spaceship rumble\" by Diff_style. \"Game over\" by Alphix. \"Glass Break\" by kakaist. \"Ocean Waves\" by DRAGON-STUDIO.\nDevelopment:\nMay: Art, coding, writing, and design\nAudrey: coding and sound\nManya: Art and coding\n",
+          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 15,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "255;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits:\nAudio: \"Game win\", \"steps on wooden stairs\", \"toilet-flush\", \"cat meow\", \"Chase 8-bit\", and \"creature in the sewers\" by freesound_community. \"Low spaceship rumble\" by Diff_style. \"Game over\" by Alphix. \"Glass Break\" by kakaist. \"Ocean Waves\" by DRAGON-STUDIO.\nDevelopment:\nMay: Art, coding, writing, and design\nAudrey: coding and sound\nManya: Art and coding\n",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 15,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -13888,6 +13948,9 @@
           },
           {
             "objectName": "Game_Over"
+          },
+          {
+            "objectName": "Game_Over2"
           },
           {
             "objectName": "TransparentButtonWithWhiteBlueBorder"
