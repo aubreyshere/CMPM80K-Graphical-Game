@@ -1255,6 +1255,30 @@
         "name": "IMG_6347[1].PNG",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IMG_6347[1].png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IMG_6347[1]",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3792,7 +3816,7 @@
                 "\"hover\"",
                 "Buff_Arrow_1.Y() - 10",
                 "\"easeInOutQuad\"",
-                "800",
+                "100",
                 ""
               ]
             },
@@ -8843,29 +8867,13 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647059725,
+        "zoomFactor": 0.11894533708001492,
         "windowMask": false,
-        "selectedLayer": "Layer"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "TopDown_Character",
-          "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
-          "width": 0,
-          "x": 627,
-          "y": -907,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -9632,8 +9640,8 @@
           "depth": 1,
           "height": 975,
           "keepRatio": true,
-          "layer": "Layer",
-          "name": "ocean",
+          "layer": "",
+          "name": "Ocean",
           "opacity": 204,
           "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
           "width": 1723,
@@ -9684,23 +9692,6 @@
           "keepRatio": true,
           "layer": "Layer",
           "name": "barrier",
-          "persistentUuid": "38eccaf6-f6cb-43bf-85ed-f1bb0524a016",
-          "width": 2421,
-          "x": -490,
-          "y": -86,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "barrier",
           "persistentUuid": "71420974-f25e-4033-822a-fd21e7fa8343",
           "width": 2421,
           "x": -416,
@@ -9719,9 +9710,9 @@
           "layer": "Layer",
           "name": "barrier",
           "persistentUuid": "d1253315-b82f-48c6-a302-8b83da35fc1c",
-          "width": 1721,
-          "x": -1063,
-          "y": 741,
+          "width": 2729,
+          "x": -1567,
+          "y": 237,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -9748,15 +9739,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 1733,
+          "height": 1737,
           "keepRatio": true,
-          "layer": "Layer",
-          "name": "sky",
-          "persistentUuid": "dec97732-57bf-4583-882f-6a61748078f8",
-          "width": 1733,
-          "x": -213,
-          "y": -1775,
-          "zOrder": 0,
+          "layer": "",
+          "name": "Sky",
+          "persistentUuid": "95d217e5-24d3-4132-84ae-6b45c1f5372a",
+          "width": 1737,
+          "x": -218,
+          "y": -1801,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9766,13 +9757,64 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Layer",
+          "layer": "",
           "name": "SewerPipe",
-          "persistentUuid": "785db4bb-32cf-4152-bf2d-f601822eb859",
+          "persistentUuid": "d506cd26-1b36-4285-9baf-485863915ef7",
           "width": 0,
-          "x": 249,
-          "y": -1069,
-          "zOrder": 24,
+          "x": -218,
+          "y": -763,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TopDown_Character",
+          "persistentUuid": "66eb2394-b19f-4c1b-9aa8-67703f9d2501",
+          "width": 0,
+          "x": 286,
+          "y": -553,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 871,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "opacity": 0,
+          "persistentUuid": "de1879bc-2097-4f47-9d81-d3c1fa8cb27c",
+          "width": 1733,
+          "x": -202,
+          "y": 31,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2525,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackScreen",
+          "persistentUuid": "20ab64a4-b686-4a62-96e5-e12b9bdc34f3",
+          "width": 3306,
+          "x": -901,
+          "y": -1229,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10155,17 +10197,6 @@
               ]
             }
           }
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -10914,7 +10945,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "sky",
+          "name": "Sky",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11057,7 +11088,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "ocean",
+          "name": "Ocean",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11175,17 +11206,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite2",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "SewerPipe",
@@ -11196,16 +11216,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "IMG_6347[1]",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IMG_6347[1].PNG",
+                      "image": "IMG_6347[1]",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11225,16 +11246,77 @@
                             "y": 53
                           },
                           {
-                            "x": 318,
+                            "x": 497,
                             "y": 53
                           },
                           {
-                            "x": 318,
+                            "x": 497,
                             "y": 296
                           },
                           {
                             "x": 0,
                             "y": 296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -11259,9 +11341,6 @@
                 "objectName": "Joystick"
               }
             ]
-          },
-          {
-            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "barrier"
@@ -11291,10 +11370,10 @@
             "objectName": "blackScreen"
           },
           {
-            "objectName": "ocean"
+            "objectName": "Ocean"
           },
           {
-            "objectName": "sky"
+            "objectName": "Sky"
           },
           {
             "objectName": "octopus"
@@ -11303,10 +11382,10 @@
             "objectName": "crab"
           },
           {
-            "objectName": "NewTiledSprite2"
+            "objectName": "SewerPipe"
           },
           {
-            "objectName": "SewerPipe"
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -11369,6 +11448,16 @@
                 "TopDownMovement",
                 "=",
                 "TopDown_Character.Variable(Speed)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "barrier",
+                ""
               ]
             }
           ]
@@ -11445,6 +11534,67 @@
               "parameters": [
                 "\"collisionTimer\"",
                 "\"damage sound\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "GravitySpeed",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "NewSprite",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "0",
+                "200",
+                ""
               ]
             }
           ]
@@ -11787,77 +11937,6 @@
                 "TopDown_Character",
                 "Flippable",
                 "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "ocean",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "barrier",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "GravitySpeed",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "ocean",
-                "",
-                "",
-                "no"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "0",
-                "200",
-                ""
               ]
             }
           ]
