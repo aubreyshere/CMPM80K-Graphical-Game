@@ -1287,6 +1287,14 @@
         "name": "Untitled_Artwork 8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6348[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6348[1].PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4245,9 +4253,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1770859527754566,
+        "zoomFactor": 0.15508574551594542,
         "windowMask": false,
-        "selectedLayer": "UI"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -4450,7 +4458,7 @@
           "layer": "",
           "name": "water",
           "persistentUuid": "af8c6e9b-d85e-4c8d-a5df-25ac6c6b4a76",
-          "width": 2993,
+          "width": 3493,
           "x": 82,
           "y": -1153,
           "zOrder": -102,
@@ -5378,8 +5386,8 @@
           "name": "exit",
           "persistentUuid": "372af2a8-6c0a-47c6-a240-e20967036eb2",
           "width": 524,
-          "x": 3051,
-          "y": 189,
+          "x": 3277,
+          "y": 168,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -7277,7 +7285,7 @@
           "assetStoreId": "",
           "height": 128,
           "name": "walltopside",
-          "texture": "IMG_6330[1]2.PNG",
+          "texture": "IMG_6348[1].PNG",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -8573,7 +8581,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -11311,6 +11319,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -11321,10 +11331,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
