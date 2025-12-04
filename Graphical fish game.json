@@ -1330,7 +1330,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535342,
+        "zoomFactor": 0.30104611971825185,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4245,7 +4245,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905944231,
+        "zoomFactor": 0.1770859527754566,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -6095,8 +6095,8 @@
           "name": "blackScreen",
           "persistentUuid": "3e484d8b-253e-4abe-895c-ad2ac0e8fd96",
           "width": 1330,
-          "x": -1582,
-          "y": 809,
+          "x": -5,
+          "y": -34,
           "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
@@ -8875,9 +8875,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737490604,
+        "zoomFactor": 0.23089183385225698,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -9646,14 +9646,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 975,
+          "height": 1383,
           "keepRatio": true,
           "layer": "",
           "name": "Ocean",
           "opacity": 204,
           "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
-          "width": 1723,
-          "x": -205,
+          "width": 2891,
+          "x": -803,
           "y": -74,
           "zOrder": -20,
           "numberProperties": [],
@@ -9732,13 +9732,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 1737,
+          "height": 1740,
           "keepRatio": true,
           "layer": "",
           "name": "Sky",
           "persistentUuid": "95d217e5-24d3-4132-84ae-6b45c1f5372a",
-          "width": 1737,
-          "x": -218,
+          "width": 2890,
+          "x": -798,
           "y": -1801,
           "zOrder": 25,
           "numberProperties": [],
@@ -9747,14 +9747,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
           "layer": "",
           "name": "SewerPipe",
           "persistentUuid": "d506cd26-1b36-4285-9baf-485863915ef7",
-          "width": 0,
-          "x": -218,
+          "width": 867,
+          "x": -585,
           "y": -763,
           "zOrder": 26,
           "numberProperties": [],
@@ -9825,6 +9826,23 @@
           "x": 463,
           "y": 687,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 786,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "blackScreen",
+          "persistentUuid": "18e1064c-56ce-4376-a3a5-e61a03ff2dd5",
+          "width": 1346,
+          "x": -28,
+          "y": -26,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11283,9 +11301,32 @@
           "name": "crab",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -12024,6 +12065,17 @@
           "conditions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage1\""
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -12086,6 +12138,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage3\""
+              ]
+            },
             {
               "type": {
                 "value": "CompareTimer"
@@ -12307,6 +12371,18 @@
                 "octopus",
                 "\"calculateOctopusPath\""
               ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "crab",
+                "Pathfinding",
+                "",
+                "TopDown_Character.X()",
+                "800"
+              ]
             }
           ]
         },
@@ -12442,6 +12518,67 @@
               },
               "parameters": [
                 "TopDown_Character",
+                "Lake_Trout",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Animation",
+                "=",
+                "\"stage2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Lake_Trout",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playerEnergy",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\soft-treble-fast-collect-fade-out-ending-sound-effect-416828.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
                 "octopus",
                 "",
                 "",
@@ -12508,18 +12645,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "crab",
-                "Worm_Bait",
-                "",
-                "",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -12554,6 +12679,34 @@
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Worm_Bait",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crab",
+                "Worm_Bait",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Delete"
