@@ -1231,6 +1231,22 @@
         "name": "NewSprite7",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "IMG_6346[1].PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_6346[1].PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skybackground.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\skybackground.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1274,7 +1290,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22336005893811822,
+        "zoomFactor": 0.4789341884535342,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4189,7 +4205,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19561100536771214,
+        "zoomFactor": 0.4057518905944231,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -8819,7 +8835,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13138826996359965,
+        "zoomFactor": 0.23867758270258446,
         "windowMask": false,
         "selectedLayer": "Layer"
       },
@@ -8835,8 +8851,8 @@
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 0,
-          "x": 106,
-          "y": 205,
+          "x": 627,
+          "y": -907,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9606,15 +9622,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 741,
+          "height": 975,
           "keepRatio": true,
           "layer": "Layer",
           "name": "NewSprite3",
           "opacity": 204,
           "persistentUuid": "e5491fd0-56ca-4091-9be9-fdc2786dba14",
-          "width": 1309,
-          "x": -16,
-          "y": -9,
+          "width": 1723,
+          "x": -205,
+          "y": -74,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -9662,8 +9678,8 @@
           "name": "barrier",
           "persistentUuid": "38eccaf6-f6cb-43bf-85ed-f1bb0524a016",
           "width": 2421,
-          "x": -461,
-          "y": -553,
+          "x": -490,
+          "y": -86,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -9680,7 +9696,7 @@
           "persistentUuid": "71420974-f25e-4033-822a-fd21e7fa8343",
           "width": 2421,
           "x": -416,
-          "y": 1209,
+          "y": 901,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -9695,9 +9711,9 @@
           "layer": "Layer",
           "name": "barrier",
           "persistentUuid": "d1253315-b82f-48c6-a302-8b83da35fc1c",
-          "width": 2421,
-          "x": -1624,
-          "y": 344,
+          "width": 1721,
+          "x": -1063,
+          "y": 741,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -9713,9 +9729,26 @@
           "name": "barrier",
           "persistentUuid": "8c00cc06-1e77-47cb-8ac8-afdd18d96499",
           "width": 2421,
-          "x": 755,
-          "y": 210,
+          "x": 324,
+          "y": 246,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1733,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "skybackground",
+          "persistentUuid": "dec97732-57bf-4583-882f-6a61748078f8",
+          "width": 1733,
+          "x": -213,
+          "y": -1775,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9743,6 +9776,11 @@
               "name": "Speed",
               "type": "number",
               "value": 100
+            },
+            {
+              "name": "GravitySpeed",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -10552,17 +10590,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "ef6d385dd28fed6522f2a9bbd0d4bdc6259a543797f22713eb235cefb455b47c",
           "name": "Lake_Trout",
           "type": "Sprite",
@@ -10863,13 +10890,62 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "skybackground",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\skybackground.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 800
+                          },
+                          {
+                            "x": 0,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -11122,9 +11198,6 @@
             "objectName": "Leaf"
           },
           {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "Lake_Trout"
           },
           {
@@ -11137,7 +11210,7 @@
             "objectName": "NewSprite3"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "skybackground"
           },
           {
             "objectName": "octopus"
@@ -11167,16 +11240,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "barrier",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
@@ -11219,6 +11282,18 @@
                 "TopDownMovement",
                 "=",
                 "TopDown_Character.Variable(Speed)"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "TopDown_Character",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -11770,6 +11845,77 @@
                 "TopDown_Character",
                 "Flippable",
                 "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "NewSprite3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "barrier",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "GravitySpeed",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "NewSprite3",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "0",
+                "200",
+                ""
               ]
             }
           ]
@@ -13025,7 +13171,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647058865,
+        "zoomFactor": 0.3437520241612315,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -13069,16 +13215,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 667,
+          "depth": 1,
+          "height": 1372,
           "keepRatio": true,
           "layer": "",
-          "name": "spiral",
-          "persistentUuid": "c28194d7-641c-4aae-b5db-70df915c6ebb",
-          "width": 667,
-          "x": 295,
-          "y": 44,
-          "zOrder": 3,
+          "name": "FadeBlack",
+          "persistentUuid": "7248df8c-e49a-4ac5-b31e-be85dc3b590f",
+          "width": 1312,
+          "x": 18,
+          "y": -410,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13087,15 +13233,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1372,
+          "height": 344,
           "keepRatio": true,
           "layer": "",
-          "name": "FadeBlack",
-          "persistentUuid": "7248df8c-e49a-4ac5-b31e-be85dc3b590f",
-          "width": 1312,
-          "x": 2,
-          "y": -372,
-          "zOrder": 4,
+          "name": "spiral",
+          "persistentUuid": "a136fa7f-a628-42cf-923b-b3ccf76c4540",
+          "width": 344,
+          "x": 443,
+          "y": 246,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13226,71 +13372,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "spiral",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "IMG_6345[1].PNG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 113,
-                            "y": 169
-                          },
-                          {
-                            "x": 354,
-                            "y": 169
-                          },
-                          {
-                            "x": 354,
-                            "y": 411
-                          },
-                          {
-                            "x": 113,
-                            "y": 411
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "FadeBlack",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13344,6 +13425,71 @@
                           {
                             "x": 0,
                             "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "spiral",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_6346[1].PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 5
+                          },
+                          {
+                            "x": 244,
+                            "y": 5
+                          },
+                          {
+                            "x": 244,
+                            "y": 247
+                          },
+                          {
+                            "x": 3,
+                            "y": 247
                           }
                         ]
                       ]
@@ -13442,6 +13588,20 @@
           "actions": [
             {
               "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "FadeBlack",
+                "Tween",
+                "\"fade\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -13466,8 +13626,23 @@
                 "\"spin\"",
                 "720",
                 "\"linear\"",
-                "10",
-                ""
+                "2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+              },
+              "parameters": [
+                "spiral",
+                "Tween",
+                "\"scale\"",
+                "0.5",
+                "\"linear\"",
+                "3",
+                "yes",
+                "yes"
               ]
             }
           ]
