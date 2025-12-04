@@ -4269,7 +4269,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.14513286445534648,
+        "zoomFactor": 0.20902556228337454,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -6161,6 +6161,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "ExitLight",
+          "persistentUuid": "7fdc56de-1221-4a4d-85c1-f9c2b84baf2d",
+          "width": 0,
+          "x": 3541,
+          "y": 276,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7566,6 +7582,20 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ExitLight",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 400,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7631,6 +7661,9 @@
           },
           {
             "objectName": "Enemy_light"
+          },
+          {
+            "objectName": "ExitLight"
           },
           {
             "objectName": "Player_light"
@@ -7754,14 +7787,6 @@
                 "Gator.X() + 150",
                 "=",
                 "Gator.Y() + 100"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "exit"
               ]
             },
             {
